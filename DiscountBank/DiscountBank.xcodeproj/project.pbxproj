@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17C6D0B422E3C64D390858EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA72FEA5CA95FF73C112E87 /* libPods.a */; };
 		8CABB9611BE7D75300845810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CABB9601BE7D75300845810 /* main.m */; };
 		8CABB9641BE7D75300845810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CABB9631BE7D75300845810 /* AppDelegate.m */; };
 		8CABB9671BE7D75300845810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CABB9661BE7D75300845810 /* ViewController.m */; };
@@ -14,9 +15,19 @@
 		8CABB96D1BE7D75300845810 /* DiscountBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CABB96B1BE7D75300845810 /* DiscountBank.xcdatamodeld */; };
 		8CABB96F1BE7D75300845810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CABB96E1BE7D75300845810 /* Assets.xcassets */; };
 		8CABB9721BE7D75300845810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CABB9701BE7D75300845810 /* LaunchScreen.storyboard */; };
+		8CABB97A1BE7D88500845810 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8CABB9791BE7D88500845810 /* Podfile */; settings = {ASSET_TAGS = (); }; };
+		8CE324B11BFB5509007B6A5E /* AddNewCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE324B01BFB5509007B6A5E /* AddNewCardViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8CE324B41BFB5E84007B6A5E /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE324B31BFB5E84007B6A5E /* PhotoManager.m */; settings = {ASSET_TAGS = (); }; };
+		8CE324B71BFB6BF2007B6A5E /* BarCodeGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE324B61BFB6BF2007B6A5E /* BarCodeGeneratorViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8CED6E111BFA4E3500FC2122 /* BarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED6E101BFA4E3500FC2122 /* BarcodeScanner.m */; settings = {ASSET_TAGS = (); }; };
+		8CED6E161BFA640900FC2122 /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED6E131BFA640900FC2122 /* Card+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		8CED6E171BFA640900FC2122 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED6E151BFA640900FC2122 /* Card.m */; settings = {ASSET_TAGS = (); }; };
+		8CED6E1A1BFA683300FC2122 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED6E191BFA683300FC2122 /* DataManager.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DC63D3AD0D4FC89882B1A4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5FA72FEA5CA95FF73C112E87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CABB95C1BE7D75300845810 /* DiscountBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscountBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CABB9601BE7D75300845810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CABB9621BE7D75300845810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +39,22 @@
 		8CABB96E1BE7D75300845810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CABB9711BE7D75300845810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CABB9731BE7D75300845810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CABB9791BE7D88500845810 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CE324AF1BFB5509007B6A5E /* AddNewCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewCardViewController.h; sourceTree = "<group>"; };
+		8CE324B01BFB5509007B6A5E /* AddNewCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewCardViewController.m; sourceTree = "<group>"; };
+		8CE324B21BFB5E84007B6A5E /* PhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
+		8CE324B31BFB5E84007B6A5E /* PhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoManager.m; sourceTree = "<group>"; };
+		8CE324B51BFB6BF2007B6A5E /* BarCodeGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarCodeGeneratorViewController.h; sourceTree = "<group>"; };
+		8CE324B61BFB6BF2007B6A5E /* BarCodeGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarCodeGeneratorViewController.m; sourceTree = "<group>"; };
+		8CED6E0F1BFA4E3500FC2122 /* BarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScanner.h; sourceTree = "<group>"; };
+		8CED6E101BFA4E3500FC2122 /* BarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeScanner.m; sourceTree = "<group>"; };
+		8CED6E121BFA640900FC2122 /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8CED6E131BFA640900FC2122 /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8CED6E141BFA640900FC2122 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		8CED6E151BFA640900FC2122 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		8CED6E181BFA683300FC2122 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		8CED6E191BFA683300FC2122 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		F85EB056F4EB618771C15938 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +62,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C6D0B422E3C64D390858EC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		553CD490E14FE3DD24D2AEFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F85EB056F4EB618771C15938 /* Pods.debug.xcconfig */,
+				1DC63D3AD0D4FC89882B1A4C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8CABB9531BE7D75300845810 = {
 			isa = PBXGroup;
 			children = (
+				8CABB9791BE7D88500845810 /* Podfile */,
 				8CABB95E1BE7D75300845810 /* DiscountBank */,
 				8CABB95D1BE7D75300845810 /* Products */,
+				553CD490E14FE3DD24D2AEFF /* Pods */,
+				D6FB2DCEA5E3B06998BB003A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +100,7 @@
 		8CABB95E1BE7D75300845810 /* DiscountBank */ = {
 			isa = PBXGroup;
 			children = (
+				8CABB97B1BE7DE3600845810 /* CoreData */,
 				8CABB9621BE7D75300845810 /* AppDelegate.h */,
 				8CABB9631BE7D75300845810 /* AppDelegate.m */,
 				8CABB9651BE7D75300845810 /* ViewController.h */,
@@ -68,8 +109,17 @@
 				8CABB96E1BE7D75300845810 /* Assets.xcassets */,
 				8CABB9701BE7D75300845810 /* LaunchScreen.storyboard */,
 				8CABB9731BE7D75300845810 /* Info.plist */,
-				8CABB96B1BE7D75300845810 /* DiscountBank.xcdatamodeld */,
+				8CED6E0F1BFA4E3500FC2122 /* BarcodeScanner.h */,
+				8CED6E101BFA4E3500FC2122 /* BarcodeScanner.m */,
 				8CABB95F1BE7D75300845810 /* Supporting Files */,
+				8CED6E181BFA683300FC2122 /* DataManager.h */,
+				8CED6E191BFA683300FC2122 /* DataManager.m */,
+				8CE324AF1BFB5509007B6A5E /* AddNewCardViewController.h */,
+				8CE324B01BFB5509007B6A5E /* AddNewCardViewController.m */,
+				8CE324B21BFB5E84007B6A5E /* PhotoManager.h */,
+				8CE324B31BFB5E84007B6A5E /* PhotoManager.m */,
+				8CE324B51BFB6BF2007B6A5E /* BarCodeGeneratorViewController.h */,
+				8CE324B61BFB6BF2007B6A5E /* BarCodeGeneratorViewController.m */,
 			);
 			path = DiscountBank;
 			sourceTree = "<group>";
@@ -82,6 +132,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8CABB97B1BE7DE3600845810 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8CABB96B1BE7D75300845810 /* DiscountBank.xcdatamodeld */,
+				8CED6E121BFA640900FC2122 /* Card+CoreDataProperties.h */,
+				8CED6E131BFA640900FC2122 /* Card+CoreDataProperties.m */,
+				8CED6E141BFA640900FC2122 /* Card.h */,
+				8CED6E151BFA640900FC2122 /* Card.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		D6FB2DCEA5E3B06998BB003A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FA72FEA5CA95FF73C112E87 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CABB9761BE7D75300845810 /* Build configuration list for PBXNativeTarget "DiscountBank" */;
 			buildPhases = (
+				4ACF77400B784F10A2B6F089 /* Check Pods Manifest.lock */,
 				8CABB9581BE7D75300845810 /* Sources */,
 				8CABB9591BE7D75300845810 /* Frameworks */,
 				8CABB95A1BE7D75300845810 /* Resources */,
+				9F84D669B024B9089BA8C1FD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -108,6 +180,7 @@
 		8CABB9541BE7D75300845810 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = viera;
 				TargetAttributes = {
@@ -141,11 +214,45 @@
 			files = (
 				8CABB9721BE7D75300845810 /* LaunchScreen.storyboard in Resources */,
 				8CABB96F1BE7D75300845810 /* Assets.xcassets in Resources */,
+				8CABB97A1BE7D88500845810 /* Podfile in Resources */,
 				8CABB96A1BE7D75300845810 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ACF77400B784F10A2B6F089 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F84D669B024B9089BA8C1FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8CABB9581BE7D75300845810 /* Sources */ = {
@@ -153,8 +260,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CABB9671BE7D75300845810 /* ViewController.m in Sources */,
+				8CE324B71BFB6BF2007B6A5E /* BarCodeGeneratorViewController.m in Sources */,
+				8CED6E161BFA640900FC2122 /* Card+CoreDataProperties.m in Sources */,
+				8CE324B41BFB5E84007B6A5E /* PhotoManager.m in Sources */,
 				8CABB9641BE7D75300845810 /* AppDelegate.m in Sources */,
+				8CED6E111BFA4E3500FC2122 /* BarcodeScanner.m in Sources */,
+				8CE324B11BFB5509007B6A5E /* AddNewCardViewController.m in Sources */,
 				8CABB96D1BE7D75300845810 /* DiscountBank.xcdatamodeld in Sources */,
+				8CED6E1A1BFA683300FC2122 /* DataManager.m in Sources */,
+				8CED6E171BFA640900FC2122 /* Card.m in Sources */,
 				8CABB9611BE7D75300845810 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,20 +379,27 @@
 		};
 		8CABB9771BE7D75300845810 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85EB056F4EB618771C15938 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DiscountBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = viera.DiscountBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8CABB9781BE7D75300845810 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC63D3AD0D4FC89882B1A4C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DiscountBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = viera.DiscountBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +425,7 @@
 				8CABB9781BE7D75300845810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

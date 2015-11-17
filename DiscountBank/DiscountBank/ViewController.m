@@ -7,6 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "BarcodeScanner.h"
+#import "BarCodeGeneratorViewController.h"
+
+#define kAddCardSegueIdentefier @"addCardSegue"
+#define kShowBarcodeSegueIdentefier @"showBarcodeSegue"
 
 @interface ViewController ()
 
@@ -19,9 +24,26 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)scan:(id)sender {
+    [[BarcodeScanner sharedScanner] show];
+}
+
+- (IBAction)addCard:(id)sender {
+    [self performSegueWithIdentifier:kAddCardSegueIdentefier sender:self];
+}
+
+- (IBAction)generateBarCode:(id)sender {
+    [self performSegueWithIdentifier:kShowBarcodeSegueIdentefier sender:self];
+}
+
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:kShowBarcodeSegueIdentefier]) {
+        BarCodeGeneratorViewController *destiantionController = segue.destinationViewController;
+        //TODO: change index
+        destiantionController.storeIndex = 0;
+    }
 }
 
 @end

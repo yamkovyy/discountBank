@@ -1,0 +1,1807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A5EABCAC931D60F592C35626C87E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */; };
+		02988925A0CE6C82C6376AE7BD66D9CA /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5C36413262AEA71C25FB63549A9FA1 /* SCLMacros.h */; };
+		03B60B2CAC48CA526E31AFBD14BA223E /* TGTintedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C897D1C0DB112F7DD540C9EF622923 /* TGTintedLabel.h */; };
+		03E2BB87AC9872BF259AB7033FFEC85B /* TGCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0C93BB75D3F799B08DD017C4D4C6A /* TGCameraGrid.m */; };
+		04C7EAE1326485C75BCB53659FE7AE06 /* TGAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 980676B8AA4006E8065751DCDF2CE405 /* TGAssetsLibrary.m */; };
+		05FDBBF953B13E07183E75B9AC7FCE1F /* RSISSN13Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = C589D760233CDCC3E04041A51F6F2240 /* RSISSN13Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		06EF805FB2E5E6CA6EF8740FFAB116A4 /* TGCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1509F12943F0615A9F608DB87670A9AE /* TGCameraSlideDownView.m */; };
+		08D49D436BBAD369FD270417DE119A0A /* MagicalRecord+Setup.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CAA327F7BB18DA4114BA4F444421C0 /* MagicalRecord+Setup.h */; };
+		0B2113D496608C74C0F8561544C1659A /* TGTintedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22440F3DF9CCF9E94BC7F5E8978969CF /* TGTintedLabel.m */; };
+		0B3310145391075142ECCE43865672D6 /* NSEntityDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = FB782B8325B19C35A069CC50DD969A01 /* NSEntityDescription+MagicalDataImport.h */; };
+		0E8EC676EB67E62BFC81C33EA02B5821 /* TGCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED71946E5C1147DFBD4F5DB0BC9CCE6 /* TGCameraViewController.m */; };
+		0FC8E5BF13EF0A4A81BD3FDE0E0B20C1 /* MagicalRecordShorthandMethodAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8C55BE1A69E1516B7DD49B9177A670 /* MagicalRecordShorthandMethodAliases.h */; };
+		10A59E88289E47DD15F37F359E3F53D8 /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A66A9BE00BB6D1F66A52EE79BDFC9E /* NSManagedObject+MagicalAggregation.m */; };
+		11AC79F40C718173566018E7207A1661 /* NSManagedObjectContext+MagicalChainSave.h in Headers */ = {isa = PBXBuildFile; fileRef = 020FC9BADA2847155F91ABB8B8E7F93F /* NSManagedObjectContext+MagicalChainSave.h */; };
+		12230399CE55CADD2FCA6CE68420A719 /* RSCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6C77951A3A5DFCDB25AF0A495B4BDC /* RSCodeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13185E83314C8DA911F115A2EA3A5366 /* NSManagedObjectContext+MagicalSaves.h in Headers */ = {isa = PBXBuildFile; fileRef = 936D4D7067C55941382C61634A9F784D /* NSManagedObjectContext+MagicalSaves.h */; };
+		14028D8CF775DF5848A1E0F4E7B8865A /* TGCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A7DB9DEB31A34649781D6833477574 /* TGCameraSlideUpView.m */; };
+		147E8FAE484A444C79DC6DDA18636E1C /* UIAwesomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AF9517A14585F51670BA502C1FFDBF /* UIAwesomeButton.h */; };
+		14D2D61499558CE4F8C20F97B9B5A761 /* UIFont+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B768EABB1394FD8505248264B34074 /* UIFont+FontAwesome.h */; };
+		15BD51ED3E347AF81B1C279D07CF3C70 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F894AF3285A3D5B08C125308AF7509 /* CoreData.framework */; };
+		15CDF7B0DFC58BEDD5825368846EA0B6 /* UIButton+PPiAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1187E8BE3DBEC878D362859DA3BC31C9 /* UIButton+PPiAwesome.m */; };
+		162CDF0615E08185EA51CDE7543F6747 /* TGCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = A268205B44A23656EE08E1F1AFD4702B /* TGCamera.h */; };
+		16DCE6A8CA2E31524EA7D7E930CFC24B /* TGCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 394ECBFD29E7B9594D234C57CE37D8F0 /* TGCameraFocus.m */; };
+		172BEC1A7A245FE2F32AAE125514D46B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */; };
+		188392AE01D238D5D4D477972AA1A1F2 /* MagicalRecord+ErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 16EC55B622E7FBB8A6F4A738F7E86F0D /* MagicalRecord+ErrorHandling.h */; };
+		1A3AF305571C0D4AD4EADE595F4BF69C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47F7322A2BA59DE597C74C9E1ECAC12 /* AssetsLibrary.framework */; };
+		1D5734651E8D49C591F7E1D9AD831965 /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = DD259F2C0DD2E998C3ADF2290A308515 /* NSPersistentStore+MagicalRecord.m */; };
+		1D632B65BCB70F00F69C140B843DB7EC /* RSISSN13Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D242651934349D9313A5F17CF12C6F4 /* RSISSN13Generator.h */; };
+		1EA59C1A085B9447D7AC4A5D48E0C0AE /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = C8352DF4B5DF7B2B2E9B801E1B72A80F /* NSObject+MagicalDataImport.m */; };
+		1F0CA4933D47289A61146A1568BFC84A /* RSUPCEGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA79B40433245E95D4C8A22D94E4804F /* RSUPCEGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21DD3AAA41356029EE39DF0A0CA64FCE /* RSCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 055D707F5496D8BD0187A22044136327 /* RSCodeGenerator.h */; };
+		23F671025EBA1D5033EB65F8382C989E /* TGPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EF1D9EB08618436C10372AC4186223 /* TGPhotoViewController.h */; };
+		241449E2CAF6D59EF4D9311F5C0CC22F /* RSISBN13Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A09660D903FD3E48886DF4A33770C2 /* RSISBN13Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		25E62472828F81D4BD1156B7E20FE60E /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = BE56762324A6D568242CD0CF8E889039 /* NSManagedObjectContext+MagicalThreading.m */; };
+		2751F1E7367925DF0A2AD292D509E11F /* TGCameraFocusView.h in Headers */ = {isa = PBXBuildFile; fileRef = F98A4897A5A79676CE89C0D79B97A56F /* TGCameraFocusView.h */; };
+		27A498FA2E496C980E552B212C393397 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBB74625A1533068B842188A5D501B /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
+		2A180177EF89F7A07B41F02907CE4E03 /* TGCameraGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF6FC95C38270304C7D92D3F18BBA6B /* TGCameraGridView.h */; };
+		2A2C1A12AAA2A1463C2B9C65CEB8B1AA /* RSISBN13Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BF5099251C4019C6BC123A46F237D6 /* RSISBN13Generator.h */; };
+		2B17670324426CB6EA6EE237F751F201 /* NSManagedObject+MagicalFinders.h in Headers */ = {isa = PBXBuildFile; fileRef = 9338B73FF4239FF0B64669626F2409FC /* NSManagedObject+MagicalFinders.h */; };
+		2C6B0F63708CA242E816A4012B5B83F1 /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E76FE30E75BCF8D3FCD7231F7E17A3FB /* NSManagedObject+MagicalRecord.m */; };
+		2C7DAF58FC92DA0871DAA0CC414BA772 /* MagicalRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E6457BDA1393F98611DAECBF7B16C /* MagicalRecord-dummy.m */; };
+		308FAE892E8BB18FB8BCC56CC5AD558A /* NSManagedObjectContext+MagicalObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9ABC2D1670D0F22A75257DE141BADC /* NSManagedObjectContext+MagicalObserving.h */; };
+		336FD48E3EFCE21F4FAF1201569FBE0F /* TGCameraGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0A5FADFB0C5809527468CB72F71020 /* TGCameraGrid.h */; };
+		33AF6E96857CE0F1A88A27311767FF1A /* RSCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = E99713FD12578A539A10192DC33D1EFC /* RSCornersView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		363E6CA8ECBE524287BAB4D5B15146AF /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D0FA1D3B4953DB02FB77BED6DAFCB /* NSManagedObject+MagicalFinders.m */; };
+		36496448F61C41402602F6A9533E9CD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCCA93D0B21D6DFA8CE87FD0128A9FB /* QuartzCore.framework */; };
+		368636A27A57DEFB5977DFA003EFA260 /* TGCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7728D2E0696A0E9F4A5B0482507FB10 /* TGCameraAuthorizationViewController.m */; };
+		37EBEEB33D8A387827A475A447E747F8 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = C9879F245CE78C1A2E56334532E1AEB4 /* UIImage+ImageEffects.h */; };
+		386229F35FCF05F9DCF38715E0F46557 /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = F0834BE09AB33B41033A6216ED85898B /* UIImage+FontAwesome.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		387ACD469F22E94F1B732179A6B0DE7A /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F51F3C913880C18F20C28298D0B714 /* MagicalRecord+Options.m */; };
+		388F96AE93E419B22CF35E672DDF4888 /* TGCameraColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F451670D97CC160D6D4119DF75D6F9A /* TGCameraColor.h */; };
+		3B9AFD1E7DE61FCCD3E5EC7ABFC226F7 /* FontAwesome+iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3299BD20A10E1EBE17428A5E3B6E9 /* FontAwesome+iOS-dummy.m */; };
+		3BD694A648C735124D4CEF34401D9BEF /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6CD7E98F851B3C5F4113C14DD83910 /* SCLAlertViewResponder.h */; };
+		3E07AE45C83D7B24C5D518F37C4FF077 /* MagicalRecordDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 044538809166F527F3DF593C8BB09A28 /* MagicalRecordDeprecationMacros.h */; };
+		3E83F31BADBE2E49CCFBEF3352BD6E43 /* TGCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 226F10FEDBC01B67736DA8F79C8D33F7 /* TGCameraFocusView.m */; };
+		3F4358FAECE5FA765E882C082BF57A08 /* TGCameraAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42296F89D42B4CCA4CA9E9F7A8C80C70 /* TGCameraAuthorizationViewController.h */; };
+		3F6D5AC492BCD62696884D6CB946004B /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AEEA66C23D036BD114D8CF1965F49D5B /* SCLAlertViewStyleKit.h */; };
+		410890D6FC57452793A37D8453C3349A /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1FF3537D1114DBF453CE4DE0A453C2 /* NSManagedObjectModel+MagicalRecord.h */; };
+		4167AEEB1F16C729EA71D35844DC3410 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAE34FC1FE6DA937B23A3180CA7DED1 /* MobileCoreServices.framework */; };
+		430D5839E089A495A3E2B08D3EF157A9 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF02A0FC684A3EB7793CE9C8C11CA2F9 /* FAImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45CBB6BAFA89EDC0822090978A0E3EB4 /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C621C2B8B1A2ED3CD1AC3FE4E816BBCB /* SCLButton.h */; };
+		47005B3C94CD93976091ABF299A873E0 /* RSEAN8Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = C315C2495A13BFB730C0F18725970F8E /* RSEAN8Generator.h */; };
+		486BB7CB716DC7A4044BC1349E96EED0 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5CE1395A7A7B5290E6A107681718A /* NSAttributeDescription+MagicalDataImport.m */; };
+		4A72E0B1D42322BEB24D771B6609A776 /* TGAssetImageFile.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6BBCF41449BCACE798075097D5F4D9 /* TGAssetImageFile.h */; };
+		4AF69DD90962B16843602154CF52C203 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DB388270702F4D0734555D6DC70C6 /* SCLAlertViewResponder.m */; };
+		4B42DEE7E3007F9CA6D378F56F92E069 /* TGCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45211F83ACF5335C6BF5252B7E732E21 /* TGCameraGridView.m */; };
+		4C28533DCA39AAC0A0CF72580351DDB1 /* TGCameraSlideDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A211FF42CBCACD27970CF054F7A8D82 /* TGCameraSlideDownView.h */; };
+		4F8640B2823260B7F246EA2BF44A3BAC /* TGCameraFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 690CADBA2B1D86F2C889205747F0AAF6 /* TGCameraFunctions.h */; };
+		4FE6720A172E061F8E58A7B2C84FAC15 /* TGAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE277C4FDCEC7EF47F4963141CC6D9 /* TGAssetImageFile.m */; };
+		50EC9F682A1FDC0E3D7A96FEDE358A39 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E616759853D9F3FCF96C7BD655EAFBA /* SCLTextView.m */; };
+		51B98425665830443399C182D95347F2 /* SCLAlertView-Objective-C-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19893E9F07F3AD8CEAA5D4AA1121CB5E /* SCLAlertView-Objective-C-dummy.m */; };
+		51CA4ED9DFA0A4A394C5DECB787DC47C /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C1316B56BD47BF43C78AFF4D3B336 /* NSManagedObjectContext+MagicalSaves.m */; };
+		537DE5D846B691C1BBB25DA178A4C305 /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 014A200091A435EA7E517792E7D24F06 /* SCLTimerDisplay.h */; };
+		53859743C0D5CD87C3B23AAE58DFFE9C /* TGCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C35EAE51ADD98882AF58109584DA7762 /* TGCameraFilterView.m */; };
+		5C2727E3F15DD91C02E54864CF668522 /* FAImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF78DCAC48DD4DA14D55CA42B7120A1F /* FAImageView.h */; };
+		5CA0938DC173CF7A2ACE18A4ADF993A4 /* NSManagedObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 81516D9C9558D9FBCFB87D117E66D16A /* NSManagedObject+MagicalDataImport.h */; };
+		5D2F49030488CB568A425B03E6A59904 /* RSCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 264306708DDA8A19C043BBD0FF161472 /* RSCodeView.h */; };
+		5EDFD118C5E9012D068FF50D267BB159 /* TGCameraFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B42392DA3300673C03A436D1836D07 /* TGCameraFocus.h */; };
+		6056CE1C96794E2FBBFE8B88DCFC2FCE /* MagicalRecord+Actions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C95CBB1AAF1A004D9F6C57C4DED666F /* MagicalRecord+Actions.h */; };
+		60ED0CC35628F1737CEC0D88E2A0ED8B /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 078A7754864F30D50645F70759B2BD1E /* MagicalRecord+ErrorHandling.m */; };
+		62327CCCA4D828D06BF813F2D29FE903 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A561FB6DB5DDD8968222604FCCC270D /* SCLButton.m */; };
+		6336096924C66EF38A413FFF6C7324C6 /* TGCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1069F5AEC743CA26B95EC33671F93 /* TGCameraViewController-dummy.m */; };
+		653A4E310F6EB0D564265A934DEA2CA8 /* MagicalImportFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5881F9AEB2FE7AAB363CE071EB1D639C /* MagicalImportFunctions.h */; };
+		66CDF0989BAB007967087BF4B80043AF /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 5553E14E601B3248F02D6E297AC53DC8 /* MagicalRecord+iCloud.m */; };
+		673B0C2E271EE7536F051883369DCB80 /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B4C57B44D071001D769187C2A47F3B /* UIImage+CameraFilters.m */; };
+		689BE3575723885E17FD9191B70E670B /* RSITFGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9B713B92D468AC5EAD4480EC024118 /* RSITFGenerator.h */; };
+		68B549073C9888B7BB81D5F2D1A47C1A /* TGCameraToggle.h in Headers */ = {isa = PBXBuildFile; fileRef = E65C2DBC74EF2D6C666D04F728AFB4B3 /* TGCameraToggle.h */; };
+		6955B06ADA195791BC17E53AB0979357 /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E2946BE76A9D1D4EC592E6B6D5C8E0 /* NSNumber+MagicalDataImport.m */; };
+		69DD5F7E2D63C19B995EF143A77C31AC /* RSEAN13Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = CB89A465E1D90016BAFF5DB39C56CE0C /* RSEAN13Generator.h */; };
+		6E9810E9632E83BC53814DC779192C2C /* RSEAN13Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FF7F05046406AE74DF8B67844EABBA /* RSEAN13Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6F53C14979278CE3D446340ED2F2E26B /* TGCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F78926ECB16DA7DF268668C9CD9C2450 /* TGCameraColor.m */; };
+		708C4C83577ADB8FD13CCFCF6411B7E1 /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = C142730BDE128F742D6F8DB066A80C7C /* MagicalRecord+Actions.m */; };
+		713828E657A8EAE57DEE6169CB5718E6 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5341C20E32A3F9B6BCDFB3203C3CC595 /* UIImage+ImageEffects.m */; };
+		7304CC489EE9E2DBB5D209000A0BBC76 /* RSBarcodes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A76632D522B44C57B3464186941ABF50 /* RSBarcodes-dummy.m */; };
+		73D28EC571E261234566F4378A0A70EA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976D9820BFF7A5F3A5D9325FB48B105D /* CoreImage.framework */; };
+		73DCAECC88C6725C483450D515105ACC /* TGCameraFilterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 492B4965866A120773B3532F7E361533 /* TGCameraFilterView.h */; };
+		77860E54CE24D2890DB88E5A974047B8 /* TGCameraNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 648986B79D105766AF4AA9489000906A /* TGCameraNavigationController.h */; };
+		77E6D929920E1E0DAD8CF1BC7B38A876 /* NSManagedObject+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BC2417BE20A30993B7077D0CB0F92B /* NSManagedObject+MagicalRecord.h */; };
+		78BDC3299A5AED392A9C25B375DF46CB /* TGTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F92E535E0BB98AB43338648BE7F937 /* TGTintedButton.m */; };
+		7A2AD70D4A26DDF84641D8B989DFC03E /* MagicalRecordInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6C49F340001CB96678AE12B45B6EC4 /* MagicalRecordInternal.h */; };
+		7ACB4748CCACA3FCF19541351D9EF771 /* RSScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385AFA293EFD26B7F197AFE7D1DED21B /* RSScannerViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F1F41D599C47BCEBEDCD93AFC59B6F8 /* MagicalRecord+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = E73244D22C02D1C6C1D43E59145AB5B2 /* MagicalRecord+Options.h */; };
+		7FD8126DDB2898D277BC9E3F25685B35 /* RSExtendedCode39Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 058C84DD011CAC27AD81A83E0049D942 /* RSExtendedCode39Generator.h */; };
+		7FE1A58424E891D2FDD7F306B1476387 /* NSManagedObject+MagicalAggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D084BC3498337EF8DF69F578996B9BE /* NSManagedObject+MagicalAggregation.h */; };
+		800DF5206B69E4B074EF1EFDC54AD0DD /* TGAssetsLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1A4651C945076D376C590FA5D20466 /* TGAssetsLibrary.h */; };
+		8226BA79FB9E26A9DCD02041634A8378 /* RSCode39Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = FACBBB55D6E9E6B571377281E7A415B9 /* RSCode39Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85667AD6CBDA9DEF12824F2FCA31898B /* TGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E06F587FD610FB3EAF325F2F0B772B /* TGCamera.m */; };
+		8577DFC340B7392DB523E0E45F90A4D1 /* NSString+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 2087B66C1FB78DEE66F247867C1E9C7C /* NSString+FontAwesome.h */; };
+		86658543477CC9112F99AA7031E4F56A /* TGCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F577DF492EF139A824386CE00FEE8C3D /* TGCameraViewController.h */; };
+		898F234D635C031E53EC6486E241B9EB /* RSCornersView.h in Headers */ = {isa = PBXBuildFile; fileRef = 165C1A61C53952721F6A0FB6FB2FAA07 /* RSCornersView.h */; };
+		8A50E025D0B006C9387496F85AD3D360 /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3297655079F78AD450D632D347C8E5 /* NSManagedObjectContext+MagicalObserving.m */; };
+		8AE826E032DE64E876645EC62F30212E /* MagicalRecordLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 246F3DF0CED147F0B3FFE697D797A28C /* MagicalRecordLogging.h */; };
+		8B0AD3B83542AFA637EA8B7C97671A67 /* TGCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F7C7B7FEAED2AF68B3C59FDD955DD /* TGCameraSlideView.m */; };
+		8E4603D085E1C99E72B46BEB2B082EEE /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A519D4BFE57F00A2F89056699CF6 /* NSString+FontAwesome.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8ED9BCBB5CC4E11533A8812B66119AE5 /* RSCodeGen.h in Headers */ = {isa = PBXBuildFile; fileRef = F3386F2A8260779E1358024F915991FF /* RSCodeGen.h */; };
+		8F82BAB25297DC671B1AAC5DA226F09B /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A6334E82C40EDB9D62811888E6209 /* MagicalImportFunctions.m */; };
+		91823F9736562DE90DEDE48E26EE5ED8 /* TGCameraSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 105E40A56841F86F2B9D6FDBC2C26749 /* TGCameraSlideView.h */; };
+		91CFFE54B9B03FB41F45444F729E34BF /* RSCode93Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A19B416260793C71738CE8D76EFFC8C /* RSCode93Generator.h */; };
+		9216F10E4F4C668E4E075C376CDD2200 /* RSCode39Mod43Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DC5D95B2222F12A85920FC44DCC98B /* RSCode39Mod43Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93AD018B9AB5E3DE80A447ED219EC288 /* TGCameraSlideUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9FE00FAD1884F5B26D8783BC7D9CFF /* TGCameraSlideUpView.h */; };
+		93C31A35B01944A740EFB921AB9C6B82 /* RSCode128Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AF9D8BEB6E87550489B9925BFABD83 /* RSCode128Generator.h */; };
+		9495045953CD88406A69CFA11CFF1A2E /* MagicalRecord+ShorthandMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CCEB7D52E709551E9BD1B4B8B38AAD /* MagicalRecord+ShorthandMethods.h */; };
+		961184090D5AEDD70B14A83AA84D2B52 /* UIButton+PPiAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428F48AC03062629D25BC9C279DACE7 /* UIButton+PPiAwesome.h */; };
+		9688E14D7E2B5F75536B856019AC0803 /* TGCameraFlash.h in Headers */ = {isa = PBXBuildFile; fileRef = 818C5DC1A8F0050E6803C7E7D04864B8 /* TGCameraFlash.h */; };
+		96F3D02ED3E84CCE08C38F52046BC5F9 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 35064BB73BC7EE01956A450AF5522B16 /* SCLTimerDisplay.m */; };
+		97A6ABF5B5C3DE50F53EEBA21D49F27A /* RSEANGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D0079BD8CCCC5ED31FBE8788692ADE19 /* RSEANGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		98B494F33A1B2A53432025A557EA2684 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198ACAFFAD023BBB3BF3FA10B78A0E6 /* NSManagedObject+MagicalRequests.m */; };
+		A0AF2DF496673825FB8CEE53237C8A5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC693B72213A9EB302E42C469E8FA136 /* UIKit.framework */; };
+		A3C9142B1E0F6EF26505761485652DE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */; };
+		A431D6AFFBD5FFC52B24AA04E0EEDE09 /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2D712872C09A7D0E4BDF457E22D8A /* NSRelationshipDescription+MagicalDataImport.m */; };
+		A45FA25885BD4BE8B315DC6EF608B628 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA7D71A4147BE84EE855BE65D0429A /* SCLAlertViewStyleKit.m */; };
+		A4C6D783E17F0CA9D44B4D61E651464C /* RSCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 897CA5A7F68D4880FF3593D54134A16F /* RSCodeGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A5D42AD54AC1BEF2939B6900CF52E4AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */; };
+		A6736CBD590753B5A8173511FDC21703 /* RSScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD29FEB383D8C7399F665C46A2D8C60A /* RSScannerViewController.h */; };
+		A6E0FEB722F2EB41C5219B41D0711929 /* RSBarcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6AB5D0D791EF0B267EA283AD48D2D4 /* RSBarcodes.h */; };
+		A7D06FAB2BF1DB420DE09CB10BF9E1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */; };
+		A826ACC0793BEC1C88C06A5EFCFD5EFE /* NSString+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7927BE5997CEB2456124B6DB617E3558 /* NSString+MagicalDataImport.h */; };
+		A91F06E6658BFCBFB86DDF7BC4428119 /* RSITF14Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3A3E35BA04E9BC5774091662E1CA5 /* RSITF14Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A9757B4A75C8652EB6A5DBB4DC14AB53 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FACA1539896D42821CD0FDD12181F4B /* UIFont+FontAwesome.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AB2EAB8AC3E6CD2100E094BF24743F3A /* TGCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E95BAD5157C595193DE88E855FBC6A /* TGCameraShot.m */; };
+		AB8837DF3AE44B3957C074A8C88576AA /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E9279532D38724067AB9E701766E7 /* NSManagedObjectModel+MagicalRecord.m */; };
+		AF51226E37FBD1AE3019FE61081AB037 /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD91D4138CA8353C1388B5E14CCFFDB /* NSManagedObject+MagicalDataImport.m */; };
+		AF577C7DE99701B3896B64CC46180B8C /* NSManagedObjectContext+MagicalThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CB2A6B95896687D92A445167445724 /* NSManagedObjectContext+MagicalThreading.h */; };
+		B0745A51C2C583A94436CCFFC1063FD2 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E728E1EBBE56ECF08F68F744E9EE616 /* NSPersistentStoreCoordinator+MagicalRecord.h */; };
+		B12F44F1641E1042A04D5544C0E5BF48 /* TGCameraShot.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BA65D86030977B8651C25C9E556B38 /* TGCameraShot.h */; };
+		B52F1341CB486D19164FD70A227A8CB8 /* RSUnifiedCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C3FAB86E3BEA2FCB2DC660DBB9F69 /* RSUnifiedCodeGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9B0C52333EBFB97FFC1968D9323FC7F /* NSManagedObjectContext+MagicalChainSave.m in Sources */ = {isa = PBXBuildFile; fileRef = CEABBC4D5AB9CE9F9A4DB58AB8832697 /* NSManagedObjectContext+MagicalChainSave.m */; };
+		B9B6A7BF9BB20F6D30EDD6B8213DA44B /* NSManagedObjectContext+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C55F4EE3F21A3EEAC63EDEF33FAD27C /* NSManagedObjectContext+MagicalRecord.h */; };
+		BA710F7C4485EF2F041DC1CB5D070885 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C029D0694B1C2E3DFE7F356090012D /* SCLAlertView.m */; };
+		BDC89561DA280785C8254069058B960A /* MagicalRecord+ShorthandMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = A731B14CAA7753143A9EBC0ECB453410 /* MagicalRecord+ShorthandMethods.m */; };
+		BF8707C5104D8A22FC5556D3A9B00A78 /* NSRelationshipDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B65CFC751521C1461C8670AAE33F0E /* NSRelationshipDescription+MagicalDataImport.h */; };
+		C07E1ED63B5473595F09EF559310FE7E /* RSITF14Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D349146E883353D4A67B8F15734F7F /* RSITF14Generator.h */; };
+		C15E79C71285F9F89DE16F32C5DD40E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC693B72213A9EB302E42C469E8FA136 /* UIKit.framework */; };
+		C28C6750796E25A892D18549F985CDC6 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = F81B72BCC4272DFEC440E509596825DB /* NSAttributeDescription+MagicalDataImport.h */; };
+		C328AFB0B90B3962E46149A713E01687 /* TGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53065F779228DA51E76809C46A1C0FB8 /* TGPhotoViewController.m */; };
+		C4F2B65331C53332D3B6E7439B593F08 /* RSUnifiedCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E895739AB6551EBC79DBF00D8783372 /* RSUnifiedCodeGenerator.h */; };
+		C8288982C09FEA4AB1E97F83FE8F6721 /* MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8138E65B3F0ACB98025D28A47B4014F0 /* MagicalRecord.h */; };
+		CF58EFFC2F7BC13715EF373B1C8B60C6 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8334A8CE19C61DFD9B304C7A9E2007 /* NSManagedObjectContext+MagicalRecord.m */; };
+		D002959289EEF9D048F61A9B9BC02A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */; };
+		D2FD9F5055197B13020B8DC505FA2A21 /* TGAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAC8C227CDBFB3DD1292F2CA7D4D4D6 /* TGAlbum.h */; };
+		D5513D446293EE46DA3BA68F668A0895 /* MagicalRecordInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E7747EC7DFBA5DB02FFCD4E815AFE /* MagicalRecordInternal.m */; };
+		D56B1CBBCCFE78D7244AE682B22ADFB3 /* RSEAN8Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C40261D1F5288036D9BF1F0316549 /* RSEAN8Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D634D16C259F4AAE578AAEF783AA69BA /* NSNumber+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C750F0BDD3A00E1A6B53709EB3C7909 /* NSNumber+MagicalDataImport.h */; };
+		D69DE3745F302273434F2CC0DFBD1506 /* RSCode39Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9734492ACE7BA3ED817729EB349AE4D4 /* RSCode39Generator.h */; };
+		D75D20CBA85A091A6F86AE75A2A4ACAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D48754A2EE02637AABC74B1BFB5AEF /* CoreGraphics.framework */; };
+		D90F18B9DFF23A7B8EBD464F5B02A2DE /* RSEANGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFFECE10F9520E866AD2AFFA70E2765 /* RSEANGenerator.h */; };
+		DA48A4F568B9BF7AAC57448B31E440EF /* PPiAwesomeButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D71787024FAB6ED011CDB0FE808E6 /* PPiAwesomeButton-dummy.m */; };
+		DA55B192F11D21432DD6ACF124D434EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */; };
+		DC169D2083D8C6A36CC567340E819B77 /* TGCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = D136A90EF31235D9A63F1C04F07C3375 /* TGCameraToggle.m */; };
+		DC5484C706752E7343D74F9228CEAE9F /* RSCode39Mod43Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A0726A977EF753E11DF697A91639F5 /* RSCode39Mod43Generator.h */; };
+		DC735FC6BBEE042B7060FBAB6F7E5FDE /* TGTintedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC8551E6A0A2EB002B5638B89DA8D3B /* TGTintedButton.h */; };
+		DD2FB0300743F46F59DBC94A1BD7A9AA /* RSITFGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E02540951193C9169D42E473CB557C27 /* RSITFGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DF14A7DCA0924AF94D9E283833EB83AE /* RSUPCEGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF08CCAD56EBB8C2EE409F022690558 /* RSUPCEGenerator.h */; };
+		E036523C50DE59A9C8BFD51257C1CB04 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976D9820BFF7A5F3A5D9325FB48B105D /* CoreImage.framework */; };
+		E2638488C11B8C1F5305AD2E56499506 /* NSPersistentStore+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D598DC05AE826DC9684710C0B9B020 /* NSPersistentStore+MagicalRecord.h */; };
+		E2D72EFCB6B436ECB7154EDFB0AD4CEB /* UIImage+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F72553F393E2EDB1E2BA830070BC2B /* UIImage+FontAwesome.h */; };
+		E31F57D47E9E72EF6F170B73379164E5 /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE227AA19FBC70760FCA73852523B52 /* NSEntityDescription+MagicalDataImport.m */; };
+		E352B0139328830844AD9F8884D242BB /* NSObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E522F657EC15CA6A380A7F869161BF6 /* NSObject+MagicalDataImport.h */; };
+		E4D36902AC2262D6DEAB6787AFCACA40 /* NSManagedObject+MagicalRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 938CA6F5ECF4541E40DE3294E031D478 /* NSManagedObject+MagicalRequests.h */; };
+		E501B02068EE6C6228F80A8E27CA6833 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251AB8E864DCDF581E9756A2125FC72 /* AVFoundation.framework */; };
+		E637109AEC0BC7B98540EA52993EAEDD /* RSCode128Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A74B0B16FD583CCBE671D4AB7C374F /* RSCode128Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB7B65B7771F8C5035879DF78B7445FD /* TGCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = FA394430ECE296962D377D614634591D /* TGCameraFlash.m */; };
+		EE62A0458B092A0996A6AF1377664F3A /* TGAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = F930525FC913F422347408B8460BAD41 /* TGAlbum.m */; };
+		EED2CCC39A2AE6A038D967D917B1D22E /* TGCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE15BF9909BB54604CC6118D1FF7653E /* TGCameraNavigationController.m */; };
+		EF9C8A4A94FA981456E07E2F77398F1A /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6849B66D0A596A0FFAB3B812C964629F /* Pods-dummy.m */; };
+		F37BAFC205A5AC37240C9F0391EE1988 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251AB8E864DCDF581E9756A2125FC72 /* AVFoundation.framework */; };
+		F3BF87437A461BFA21BFEE7276D817EA /* MagicalRecord+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = F47EDB9A2DE0C8D3BF950E64266328F5 /* MagicalRecord+iCloud.h */; };
+		F411A3BD717B9ABED7729E5D87ECE1EF /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E547442E8F93DAB7CBDD6B491ECA9 /* MagicalRecord+Setup.m */; };
+		F6E806774C3DA140C293A5082BEB6981 /* RSExtendedCode39Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3FB86853EE5D0017815344231B96CD /* RSExtendedCode39Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F6F783E1EAF1D6B2CB5FBCB521F076A3 /* UIAwesomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04708190E924281BD365A2CF530A0FD4 /* UIAwesomeButton.m */; };
+		F8A5AEEFFFA4FCF978E93CE42FDB9381 /* RSCode93Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D93A6C8D15A52CB103DB6C89F824C /* RSCode93Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB3F17F239F662649AE8D2F884B14220 /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C47A03EA8E8DBD9B4877601C0C0F01F /* SCLAlertView.h */; };
+		FE3AB7250EDC49B28C51A97A10F01545 /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0C3AF715EFC36990220693A385181B /* SCLTextView.h */; };
+		FE9598A0227FA70963C26A57C429354B /* UIImage+CameraFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = A49DD65A8DAECEA0F63BA60D99BDD428 /* UIImage+CameraFilters.h */; };
+		FEBD2FB63122276D6393C8F3D78177D4 /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF6AB410A73948F40547D569C5780A /* NSString+MagicalDataImport.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B83361D0B6F610D4248C005D95056B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621D54AA30635A54F156A49E42160DFE;
+			remoteInfo = "FontAwesome+iOS";
+		};
+		1EEA9AD26646361DCC80AAF93493655D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621D54AA30635A54F156A49E42160DFE;
+			remoteInfo = "FontAwesome+iOS";
+		};
+		54AEFEBEAB75D39C406E400CCC1027AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF550BF0E3E0932EC3BC148603DF10F8;
+			remoteInfo = MagicalRecord;
+		};
+		AC333A5FD6516B4155E7AAA851515508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6720D97BB79FA933697EC16E5F052894;
+			remoteInfo = "SCLAlertView-Objective-C";
+		};
+		AE637363B2925EB8BEBD3DA1A0E69398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821F67E914762512F3AA7B3C610DBE81;
+			remoteInfo = TGCameraViewController;
+		};
+		CB9CAD8EC24D30F2E5FE46BAED2B7B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60D25655E8A3C73772FC9B5264508EF1;
+			remoteInfo = RSBarcodes;
+		};
+		CCBB73D84CD5EECE21411D30A5AA0BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801CBDF132E05A15F192C8F7CBE4C981;
+			remoteInfo = PPiAwesomeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014A200091A435EA7E517792E7D24F06 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLTimerDisplay.h; path = SCLAlertView/SCLTimerDisplay.h; sourceTree = "<group>"; };
+		020FC9BADA2847155F91ABB8B8E7F93F /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalChainSave.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
+		029ABC00C5FBA44F7485A130BADA1250 /* TGCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		03FC2E3759308B9407A7B0D7075078BB /* RSBarcodes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBarcodes-prefix.pch"; sourceTree = "<group>"; };
+		0418106554598D5BD6BEAA91A6F7E590 /* libRSBarcodes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSBarcodes.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		044538809166F527F3DF593C8BB09A28 /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordDeprecationMacros.h; path = MagicalRecord/Core/MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
+		04708190E924281BD365A2CF530A0FD4 /* UIAwesomeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAwesomeButton.m; path = Control/UIAwesomeButton.m; sourceTree = "<group>"; };
+		055D707F5496D8BD0187A22044136327 /* RSCodeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCodeGenerator.h; path = RSBarcodes/RSCodeGenerator.h; sourceTree = "<group>"; };
+		058C84DD011CAC27AD81A83E0049D942 /* RSExtendedCode39Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSExtendedCode39Generator.h; path = RSBarcodes/RSExtendedCode39Generator.h; sourceTree = "<group>"; };
+		05CB2A6B95896687D92A445167445724 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalThreading.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
+		078A7754864F30D50645F70759B2BD1E /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ErrorHandling.m"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
+		0A19B416260793C71738CE8D76EFFC8C /* RSCode93Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCode93Generator.h; path = RSBarcodes/RSCode93Generator.h; sourceTree = "<group>"; };
+		0A44207DD297568CD9056F34448BF517 /* libSCLAlertView-Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSCLAlertView-Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF08CCAD56EBB8C2EE409F022690558 /* RSUPCEGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSUPCEGenerator.h; path = RSBarcodes/RSUPCEGenerator.h; sourceTree = "<group>"; };
+		0BF3299BD20A10E1EBE17428A5E3B6E9 /* FontAwesome+iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome+iOS-dummy.m"; sourceTree = "<group>"; };
+		0C95CBB1AAF1A004D9F6C57C4DED666F /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Actions.h"; path = "MagicalRecord/Core/MagicalRecord+Actions.h"; sourceTree = "<group>"; };
+		0D1A717129280F9B8DD786EE36F28FDD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF6FC95C38270304C7D92D3F18BBA6B /* TGCameraGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraGridView.h; path = TGCameraViewController/Classes/UI/TGCameraGridView.h; sourceTree = "<group>"; };
+		0FACA1539896D42821CD0FDD12181F4B /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		0FF37CCC7F78F9C16CF760F28A11DBC0 /* TGCameraAuthorizationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGCameraAuthorizationViewController.xib; path = TGCameraViewController/Classes/View/Base.lproj/TGCameraAuthorizationViewController.xib; sourceTree = "<group>"; };
+		105E40A56841F86F2B9D6FDBC2C26749 /* TGCameraSlideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideView.h; sourceTree = "<group>"; };
+		1187E8BE3DBEC878D362859DA3BC31C9 /* UIButton+PPiAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+PPiAwesome.m"; path = "Control/UIButton+PPiAwesome.m"; sourceTree = "<group>"; };
+		121A7EC1700BCCAF6C7512CBD0213176 /* TGCameraViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TGCameraViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		12BAA67EE6BB06045EE037171C41A58A /* RSBarcodes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSBarcodes.xcconfig; sourceTree = "<group>"; };
+		1509F12943F0615A9F608DB87670A9AE /* TGCameraSlideDownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideDownView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideDownView.m; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15CAA327F7BB18DA4114BA4F444421C0 /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Setup.h"; path = "MagicalRecord/Core/MagicalRecord+Setup.h"; sourceTree = "<group>"; };
+		165C1A61C53952721F6A0FB6FB2FAA07 /* RSCornersView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCornersView.h; path = RSBarcodes/RSCornersView.h; sourceTree = "<group>"; };
+		16EC55B622E7FBB8A6F4A738F7E86F0D /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ErrorHandling.h"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
+		18000A83A558B179E58DADE047FC8A54 /* SCLAlertView-Objective-C.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SCLAlertView-Objective-C.xcconfig"; sourceTree = "<group>"; };
+		19893E9F07F3AD8CEAA5D4AA1121CB5E /* SCLAlertView-Objective-C-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-Objective-C-dummy.m"; sourceTree = "<group>"; };
+		19EF1D9EB08618436C10372AC4186223 /* TGPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGPhotoViewController.h; path = TGCameraViewController/Classes/Control/TGPhotoViewController.h; sourceTree = "<group>"; };
+		1A0A5FADFB0C5809527468CB72F71020 /* TGCameraGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraGrid.h; path = TGCameraViewController/Classes/Helper/TGCameraGrid.h; sourceTree = "<group>"; };
+		1A211FF42CBCACD27970CF054F7A8D82 /* TGCameraSlideDownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideDownView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideDownView.h; sourceTree = "<group>"; };
+		1B1C40261D1F5288036D9BF1F0316549 /* RSEAN8Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSEAN8Generator.m; path = RSBarcodes/RSEAN8Generator.m; sourceTree = "<group>"; };
+		1BDA7D71A4147BE84EE855BE65D0429A /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewStyleKit.m; path = SCLAlertView/SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		1C0C3AF715EFC36990220693A385181B /* SCLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLTextView.h; path = SCLAlertView/SCLTextView.h; sourceTree = "<group>"; };
+		1C5C36413262AEA71C25FB63549A9FA1 /* SCLMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLMacros.h; path = SCLAlertView/SCLMacros.h; sourceTree = "<group>"; };
+		1C750F0BDD3A00E1A6B53709EB3C7909 /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
+		1C8334A8CE19C61DFD9B304C7A9E2007 /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
+		1C9DB388270702F4D0734555D6DC70C6 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewResponder.m; path = SCLAlertView/SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		1CC8551E6A0A2EB002B5638B89DA8D3B /* TGTintedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGTintedButton.h; path = TGCameraViewController/Classes/UI/TGTintedButton.h; sourceTree = "<group>"; };
+		1CCCA93D0B21D6DFA8CE87FD0128A9FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		1D242651934349D9313A5F17CF12C6F4 /* RSISSN13Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSISSN13Generator.h; path = RSBarcodes/RSISSN13Generator.h; sourceTree = "<group>"; };
+		1E565C156DCAFC21C26D465A4431F7D7 /* TGCameraViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGCameraViewController.xib; path = TGCameraViewController/Classes/View/Base.lproj/TGCameraViewController.xib; sourceTree = "<group>"; };
+		1E895739AB6551EBC79DBF00D8783372 /* RSUnifiedCodeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSUnifiedCodeGenerator.h; path = RSBarcodes/RSUnifiedCodeGenerator.h; sourceTree = "<group>"; };
+		1F9D93A6C8D15A52CB103DB6C89F824C /* RSCode93Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCode93Generator.m; path = RSBarcodes/RSCode93Generator.m; sourceTree = "<group>"; };
+		205E86F2F8D51A69CEF9258D29AAA3F7 /* MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
+		2087B66C1FB78DEE66F247867C1E9C7C /* NSString+FontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		22440F3DF9CCF9E94BC7F5E8978969CF /* TGTintedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGTintedLabel.m; path = TGCameraViewController/Classes/UI/TGTintedLabel.m; sourceTree = "<group>"; };
+		224C1316B56BD47BF43C78AFF4D3B336 /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalSaves.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
+		2251AB8E864DCDF581E9756A2125FC72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		226F10FEDBC01B67736DA8F79C8D33F7 /* TGCameraFocusView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFocusView.m; path = TGCameraViewController/Classes/UI/TGCameraFocusView.m; sourceTree = "<group>"; };
+		246F3DF0CED147F0B3FFE697D797A28C /* MagicalRecordLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordLogging.h; path = MagicalRecord/Core/MagicalRecordLogging.h; sourceTree = "<group>"; };
+		264306708DDA8A19C043BBD0FF161472 /* RSCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCodeView.h; path = RSBarcodes/RSCodeView.h; sourceTree = "<group>"; };
+		2F3187AE128114DF4644555D03D9B39B /* SCLAlertView-Objective-C-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-Objective-C-prefix.pch"; sourceTree = "<group>"; };
+		2F451670D97CC160D6D4119DF75D6F9A /* TGCameraColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraColor.h; path = TGCameraViewController/Classes/Helper/TGCameraColor.h; sourceTree = "<group>"; };
+		2FD91D4138CA8353C1388B5E14CCFFDB /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		30B01C53AEED20EBA9FD34169791FF97 /* PPiAwesomeButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPiAwesomeButton-prefix.pch"; sourceTree = "<group>"; };
+		33F51F3C913880C18F20C28298D0B714 /* MagicalRecord+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Options.m"; path = "MagicalRecord/Core/MagicalRecord+Options.m"; sourceTree = "<group>"; };
+		35064BB73BC7EE01956A450AF5522B16 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLTimerDisplay.m; path = SCLAlertView/SCLTimerDisplay.m; sourceTree = "<group>"; };
+		35CBB74625A1533068B842188A5D501B /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
+		385AFA293EFD26B7F197AFE7D1DED21B /* RSScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSScannerViewController.m; path = RSBarcodes/RSScannerViewController.m; sourceTree = "<group>"; };
+		394ECBFD29E7B9594D234C57CE37D8F0 /* TGCameraFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFocus.m; path = TGCameraViewController/Classes/Helper/TGCameraFocus.m; sourceTree = "<group>"; };
+		3D9E9279532D38724067AB9E701766E7 /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
+		42296F89D42B4CCA4CA9E9F7A8C80C70 /* TGCameraAuthorizationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraAuthorizationViewController.h; path = TGCameraViewController/Classes/Control/TGCameraAuthorizationViewController.h; sourceTree = "<group>"; };
+		42AF9517A14585F51670BA502C1FFDBF /* UIAwesomeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIAwesomeButton.h; path = Control/UIAwesomeButton.h; sourceTree = "<group>"; };
+		43A09660D903FD3E48886DF4A33770C2 /* RSISBN13Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSISBN13Generator.m; path = RSBarcodes/RSISBN13Generator.m; sourceTree = "<group>"; };
+		45211F83ACF5335C6BF5252B7E732E21 /* TGCameraGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraGridView.m; path = TGCameraViewController/Classes/UI/TGCameraGridView.m; sourceTree = "<group>"; };
+		45E06F587FD610FB3EAF325F2F0B772B /* TGCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCamera.m; path = TGCameraViewController/Classes/Helper/TGCamera.m; sourceTree = "<group>"; };
+		487D71787024FAB6ED011CDB0FE808E6 /* PPiAwesomeButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPiAwesomeButton-dummy.m"; sourceTree = "<group>"; };
+		492B4965866A120773B3532F7E361533 /* TGCameraFilterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFilterView.h; path = TGCameraViewController/Classes/UI/TGCameraFilterView.h; sourceTree = "<group>"; };
+		4A3297655079F78AD450D632D347C8E5 /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalObserving.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
+		4A561FB6DB5DDD8968222604FCCC270D /* SCLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLButton.m; path = SCLAlertView/SCLButton.m; sourceTree = "<group>"; };
+		4A9FE00FAD1884F5B26D8783BC7D9CFF /* TGCameraSlideUpView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideUpView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideUpView.h; sourceTree = "<group>"; };
+		4D2E547442E8F93DAB7CBDD6B491ECA9 /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Setup.m"; path = "MagicalRecord/Core/MagicalRecord+Setup.m"; sourceTree = "<group>"; };
+		4F27C92E3269C80EBBFA7C3283FD2536 /* SCLAlertView-Objective-C-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SCLAlertView-Objective-C-Private.xcconfig"; sourceTree = "<group>"; };
+		4F4A6334E82C40EDB9D62811888E6209 /* MagicalImportFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalImportFunctions.m; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.m; sourceTree = "<group>"; };
+		4FAC8C227CDBFB3DD1292F2CA7D4D4D6 /* TGAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAlbum.h; path = TGCameraViewController/Classes/Helper/TGAlbum.h; sourceTree = "<group>"; };
+		51A7DB9DEB31A34649781D6833477574 /* TGCameraSlideUpView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideUpView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideUpView.m; sourceTree = "<group>"; };
+		51B42392DA3300673C03A436D1836D07 /* TGCameraFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFocus.h; path = TGCameraViewController/Classes/Helper/TGCameraFocus.h; sourceTree = "<group>"; };
+		53065F779228DA51E76809C46A1C0FB8 /* TGPhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGPhotoViewController.m; path = TGCameraViewController/Classes/Control/TGPhotoViewController.m; sourceTree = "<group>"; };
+		5319411B8556054B968D3D64B9494D38 /* PPiAwesomeButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PPiAwesomeButton-Private.xcconfig"; sourceTree = "<group>"; };
+		5341C20E32A3F9B6BCDFB3203C3CC595 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SCLAlertView/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		5553E14E601B3248F02D6E297AC53DC8 /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+iCloud.m"; path = "MagicalRecord/Core/MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
+		57AF9D8BEB6E87550489B9925BFABD83 /* RSCode128Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCode128Generator.h; path = RSBarcodes/RSCode128Generator.h; sourceTree = "<group>"; };
+		5881F9AEB2FE7AAB363CE071EB1D639C /* MagicalImportFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalImportFunctions.h; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.h; sourceTree = "<group>"; };
+		58F72553F393E2EDB1E2BA830070BC2B /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		5A9F7C7B7FEAED2AF68B3C59FDD955DD /* TGCameraSlideView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideView.m; sourceTree = "<group>"; };
+		5B9B713B92D468AC5EAD4480EC024118 /* RSITFGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSITFGenerator.h; path = RSBarcodes/RSITFGenerator.h; sourceTree = "<group>"; };
+		5CFE277C4FDCEC7EF47F4963141CC6D9 /* TGAssetImageFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAssetImageFile.m; path = TGCameraViewController/Classes/Model/TGAssetImageFile.m; sourceTree = "<group>"; };
+		5D084BC3498337EF8DF69F578996B9BE /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalAggregation.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
+		5EC3A3E35BA04E9BC5774091662E1CA5 /* RSITF14Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSITF14Generator.m; path = RSBarcodes/RSITF14Generator.m; sourceTree = "<group>"; };
+		61A74B0B16FD583CCBE671D4AB7C374F /* RSCode128Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCode128Generator.m; path = RSBarcodes/RSCode128Generator.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6428F48AC03062629D25BC9C279DACE7 /* UIButton+PPiAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+PPiAwesome.h"; path = "Control/UIButton+PPiAwesome.h"; sourceTree = "<group>"; };
+		648986B79D105766AF4AA9489000906A /* TGCameraNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraNavigationController.h; path = TGCameraViewController/Classes/Control/TGCameraNavigationController.h; sourceTree = "<group>"; };
+		6849B66D0A596A0FFAB3B812C964629F /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		690CADBA2B1D86F2C889205747F0AAF6 /* TGCameraFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFunctions.h; path = TGCameraViewController/Classes/Helper/TGCameraFunctions.h; sourceTree = "<group>"; };
+		69FF7F05046406AE74DF8B67844EABBA /* RSEAN13Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSEAN13Generator.m; path = RSBarcodes/RSEAN13Generator.m; sourceTree = "<group>"; };
+		6B3FB86853EE5D0017815344231B96CD /* RSExtendedCode39Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSExtendedCode39Generator.m; path = RSBarcodes/RSExtendedCode39Generator.m; sourceTree = "<group>"; };
+		6C050499F652F99DDAFC98A525E00FBB /* FontAwesome+iOS-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FontAwesome+iOS-Private.xcconfig"; sourceTree = "<group>"; };
+		6E616759853D9F3FCF96C7BD655EAFBA /* SCLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLTextView.m; path = SCLAlertView/SCLTextView.m; sourceTree = "<group>"; };
+		6E6C49F340001CB96678AE12B45B6EC4 /* MagicalRecordInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordInternal.h; path = MagicalRecord/Core/MagicalRecordInternal.h; sourceTree = "<group>"; };
+		70B46066ACC900CAFBC89E62BDE087ED /* TGPhotoViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGPhotoViewController.xib; path = TGCameraViewController/Classes/View/Base.lproj/TGPhotoViewController.xib; sourceTree = "<group>"; };
+		74CCEB7D52E709551E9BD1B4B8B38AAD /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ShorthandMethods.h"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
+		75A0726A977EF753E11DF697A91639F5 /* RSCode39Mod43Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCode39Mod43Generator.h; path = RSBarcodes/RSCode39Mod43Generator.h; sourceTree = "<group>"; };
+		76DC5D95B2222F12A85920FC44DCC98B /* RSCode39Mod43Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCode39Mod43Generator.m; path = RSBarcodes/RSCode39Mod43Generator.m; sourceTree = "<group>"; };
+		76F1069F5AEC743CA26B95EC33671F93 /* TGCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		77D349146E883353D4A67B8F15734F7F /* RSITF14Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSITF14Generator.h; path = RSBarcodes/RSITF14Generator.h; sourceTree = "<group>"; };
+		7910047285960A4EEC6253CA560BB56C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		7927BE5997CEB2456124B6DB617E3558 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
+		7DB2D712872C09A7D0E4BDF457E22D8A /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		7F7EB4504D2699B4C343D05306C7CCE8 /* RSBarcodes-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RSBarcodes-Private.xcconfig"; sourceTree = "<group>"; };
+		7FFFECE10F9520E866AD2AFFA70E2765 /* RSEANGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSEANGenerator.h; path = RSBarcodes/RSEANGenerator.h; sourceTree = "<group>"; };
+		8138E65B3F0ACB98025D28A47B4014F0 /* MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecord.h; path = MagicalRecord/MagicalRecord.h; sourceTree = "<group>"; };
+		81516D9C9558D9FBCFB87D117E66D16A /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		818C5DC1A8F0050E6803C7E7D04864B8 /* TGCameraFlash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFlash.h; path = TGCameraViewController/Classes/Helper/TGCameraFlash.h; sourceTree = "<group>"; };
+		84A66A9BE00BB6D1F66A52EE79BDFC9E /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalAggregation.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
+		862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88E2946BE76A9D1D4EC592E6B6D5C8E0 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		897CA5A7F68D4880FF3593D54134A16F /* RSCodeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCodeGenerator.m; path = RSBarcodes/RSCodeGenerator.m; sourceTree = "<group>"; };
+		8A6CD7E98F851B3C5F4113C14DD83910 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewResponder.h; path = SCLAlertView/SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		8C47A03EA8E8DBD9B4877601C0C0F01F /* SCLAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertView.h; path = SCLAlertView/SCLAlertView.h; sourceTree = "<group>"; };
+		8C55F4EE3F21A3EEAC63EDEF33FAD27C /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
+		8ED71946E5C1147DFBD4F5DB0BC9CCE6 /* TGCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraViewController.m; path = TGCameraViewController/Classes/Control/TGCameraViewController.m; sourceTree = "<group>"; };
+		906D0FA1D3B4953DB02FB77BED6DAFCB /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalFinders.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
+		9198ACAFFAD023BBB3BF3FA10B78A0E6 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
+		9338B73FF4239FF0B64669626F2409FC /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalFinders.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
+		936D4D7067C55941382C61634A9F784D /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalSaves.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
+		938CA6F5ECF4541E40DE3294E031D478 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRequests.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
+		952D0F6F060987B88234E00C14636150 /* TGCameraViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TGCameraViewController.bundle; path = TGCameraViewController/Resources/TGCameraViewController.bundle; sourceTree = "<group>"; };
+		9734492ACE7BA3ED817729EB349AE4D4 /* RSCode39Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCode39Generator.h; path = RSBarcodes/RSCode39Generator.h; sourceTree = "<group>"; };
+		976D9820BFF7A5F3A5D9325FB48B105D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		980676B8AA4006E8065751DCDF2CE405 /* TGAssetsLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAssetsLibrary.m; path = TGCameraViewController/Classes/Helper/TGAssetsLibrary.m; sourceTree = "<group>"; };
+		98F80A0EEF5ED492F944EFFF8EBDDE19 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		99BF5099251C4019C6BC123A46F237D6 /* RSISBN13Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSISBN13Generator.h; path = RSBarcodes/RSISBN13Generator.h; sourceTree = "<group>"; };
+		9AEF6AB410A73948F40547D569C5780A /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
+		9E522F657EC15CA6A380A7F869161BF6 /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		9E728E1EBBE56ECF08F68F744E9EE616 /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
+		9ED1A519D4BFE57F00A2F89056699CF6 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		A1D48754A2EE02637AABC74B1BFB5AEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A268205B44A23656EE08E1F1AFD4702B /* TGCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCamera.h; path = TGCameraViewController/Classes/Helper/TGCamera.h; sourceTree = "<group>"; };
+		A2B65CFC751521C1461C8670AAE33F0E /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		A43E6457BDA1393F98611DAECBF7B16C /* MagicalRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord-dummy.m"; sourceTree = "<group>"; };
+		A49DD65A8DAECEA0F63BA60D99BDD428 /* UIImage+CameraFilters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CameraFilters.h"; path = "TGCameraViewController/Classes/Category/UIImage+CameraFilters.h"; sourceTree = "<group>"; };
+		A57C3FAB86E3BEA2FCB2DC660DBB9F69 /* RSUnifiedCodeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSUnifiedCodeGenerator.m; path = RSBarcodes/RSUnifiedCodeGenerator.m; sourceTree = "<group>"; };
+		A731B14CAA7753143A9EBC0ECB453410 /* MagicalRecord+ShorthandMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ShorthandMethods.m"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.m"; sourceTree = "<group>"; };
+		A76632D522B44C57B3464186941ABF50 /* RSBarcodes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSBarcodes-dummy.m"; sourceTree = "<group>"; };
+		A8E4EDFF7646DF1F617CF0CC9546C61B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		ACE227AA19FBC70760FCA73852523B52 /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		AEEA66C23D036BD114D8CF1965F49D5B /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewStyleKit.h; path = SCLAlertView/SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		B35D8FB76AE212953C487C56D543B90B /* PPiAwesomeButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPiAwesomeButton.xcconfig; sourceTree = "<group>"; };
+		B47F7322A2BA59DE597C74C9E1ECAC12 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		B78B3431D193F4CB3AF4D99CAE99B610 /* libTGCameraViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTGCameraViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB6C77951A3A5DFCDB25AF0A495B4BDC /* RSCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCodeView.m; path = RSBarcodes/RSCodeView.m; sourceTree = "<group>"; };
+		BE56762324A6D568242CD0CF8E889039 /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalThreading.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFAE34FC1FE6DA937B23A3180CA7DED1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		C142730BDE128F742D6F8DB066A80C7C /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Actions.m"; path = "MagicalRecord/Core/MagicalRecord+Actions.m"; sourceTree = "<group>"; };
+		C1BA65D86030977B8651C25C9E556B38 /* TGCameraShot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraShot.h; path = TGCameraViewController/Classes/Helper/TGCameraShot.h; sourceTree = "<group>"; };
+		C315C2495A13BFB730C0F18725970F8E /* RSEAN8Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSEAN8Generator.h; path = RSBarcodes/RSEAN8Generator.h; sourceTree = "<group>"; };
+		C35EAE51ADD98882AF58109584DA7762 /* TGCameraFilterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFilterView.m; path = TGCameraViewController/Classes/UI/TGCameraFilterView.m; sourceTree = "<group>"; };
+		C3A0C93BB75D3F799B08DD017C4D4C6A /* TGCameraGrid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraGrid.m; path = TGCameraViewController/Classes/Helper/TGCameraGrid.m; sourceTree = "<group>"; };
+		C4D598DC05AE826DC9684710C0B9B020 /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		C589D760233CDCC3E04041A51F6F2240 /* RSISSN13Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSISSN13Generator.m; path = RSBarcodes/RSISSN13Generator.m; sourceTree = "<group>"; };
+		C5BEDBCBE8A7496AE1FF414900F6605F /* libFontAwesome+iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFontAwesome+iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C621C2B8B1A2ED3CD1AC3FE4E816BBCB /* SCLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLButton.h; path = SCLAlertView/SCLButton.h; sourceTree = "<group>"; };
+		C7E5CE1395A7A7B5290E6A107681718A /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		C8352DF4B5DF7B2B2E9B801E1B72A80F /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		C9879F245CE78C1A2E56334532E1AEB4 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SCLAlertView/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C9E95BAD5157C595193DE88E855FBC6A /* TGCameraShot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraShot.m; path = TGCameraViewController/Classes/Helper/TGCameraShot.m; sourceTree = "<group>"; };
+		CB89A465E1D90016BAFF5DB39C56CE0C /* RSEAN13Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSEAN13Generator.h; path = RSBarcodes/RSEAN13Generator.h; sourceTree = "<group>"; };
+		CD29FEB383D8C7399F665C46A2D8C60A /* RSScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSScannerViewController.h; path = RSBarcodes/RSScannerViewController.h; sourceTree = "<group>"; };
+		CEABBC4D5AB9CE9F9A4DB58AB8832697 /* NSManagedObjectContext+MagicalChainSave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalChainSave.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.m"; sourceTree = "<group>"; };
+		CECF3C6A7D07FE0FFA96CEAA34A886F8 /* FontAwesome+iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome+iOS-prefix.pch"; sourceTree = "<group>"; };
+		D0079BD8CCCC5ED31FBE8788692ADE19 /* RSEANGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSEANGenerator.m; path = RSBarcodes/RSEANGenerator.m; sourceTree = "<group>"; };
+		D07914FC796E79A6D1A25384CDE720E6 /* libPPiAwesomeButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPPiAwesomeButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D136A90EF31235D9A63F1C04F07C3375 /* TGCameraToggle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraToggle.m; path = TGCameraViewController/Classes/Helper/TGCameraToggle.m; sourceTree = "<group>"; };
+		D1F894AF3285A3D5B08C125308AF7509 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		D6D26AC644C29C983BC90BCFF391F221 /* MagicalRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagicalRecord.xcconfig; sourceTree = "<group>"; };
+		D78AACCF0D5D39E6EA85903FA62A36AF /* TGCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGCameraViewController.xcconfig; sourceTree = "<group>"; };
+		D9BC2417BE20A30993B7077D0CB0F92B /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
+		DA6BBCF41449BCACE798075097D5F4D9 /* TGAssetImageFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAssetImageFile.h; path = TGCameraViewController/Classes/Model/TGAssetImageFile.h; sourceTree = "<group>"; };
+		DBC9D3AD3BF0446E1F6B069A849B5166 /* FontAwesome+iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FontAwesome+iOS.xcconfig"; sourceTree = "<group>"; };
+		DD259F2C0DD2E998C3ADF2290A308515 /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
+		DE15BF9909BB54604CC6118D1FF7653E /* TGCameraNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraNavigationController.m; path = TGCameraViewController/Classes/Control/TGCameraNavigationController.m; sourceTree = "<group>"; };
+		E02540951193C9169D42E473CB557C27 /* RSITFGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSITFGenerator.m; path = RSBarcodes/RSITFGenerator.m; sourceTree = "<group>"; };
+		E2B4C57B44D071001D769187C2A47F3B /* UIImage+CameraFilters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CameraFilters.m"; path = "TGCameraViewController/Classes/Category/UIImage+CameraFilters.m"; sourceTree = "<group>"; };
+		E65C2DBC74EF2D6C666D04F728AFB4B3 /* TGCameraToggle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraToggle.h; path = TGCameraViewController/Classes/Helper/TGCameraToggle.h; sourceTree = "<group>"; };
+		E73244D22C02D1C6C1D43E59145AB5B2 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Options.h"; path = "MagicalRecord/Core/MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		E76FE30E75BCF8D3FCD7231F7E17A3FB /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
+		E7728D2E0696A0E9F4A5B0482507FB10 /* TGCameraAuthorizationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraAuthorizationViewController.m; path = TGCameraViewController/Classes/Control/TGCameraAuthorizationViewController.m; sourceTree = "<group>"; };
+		E8C897D1C0DB112F7DD540C9EF622923 /* TGTintedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGTintedLabel.h; path = TGCameraViewController/Classes/UI/TGTintedLabel.h; sourceTree = "<group>"; };
+		E99713FD12578A539A10192DC33D1EFC /* RSCornersView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCornersView.m; path = RSBarcodes/RSCornersView.m; sourceTree = "<group>"; };
+		E9F92E535E0BB98AB43338648BE7F937 /* TGTintedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGTintedButton.m; path = TGCameraViewController/Classes/UI/TGTintedButton.m; sourceTree = "<group>"; };
+		EA1FF3537D1114DBF453CE4DE0A453C2 /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
+		EA79B40433245E95D4C8A22D94E4804F /* RSUPCEGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSUPCEGenerator.m; path = RSBarcodes/RSUPCEGenerator.m; sourceTree = "<group>"; };
+		EC693B72213A9EB302E42C469E8FA136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ED9ABC2D1670D0F22A75257DE141BADC /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalObserving.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
+		EE1A4651C945076D376C590FA5D20466 /* TGAssetsLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAssetsLibrary.h; path = TGCameraViewController/Classes/Helper/TGAssetsLibrary.h; sourceTree = "<group>"; };
+		EE8C55BE1A69E1516B7DD49B9177A670 /* MagicalRecordShorthandMethodAliases.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordShorthandMethodAliases.h; path = MagicalRecord/Core/MagicalRecordShorthandMethodAliases.h; sourceTree = "<group>"; };
+		EF6AB5D0D791EF0B267EA283AD48D2D4 /* RSBarcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSBarcodes.h; path = RSBarcodes/RSBarcodes.h; sourceTree = "<group>"; };
+		EF78DCAC48DD4DA14D55CA42B7120A1F /* FAImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		F0834BE09AB33B41033A6216ED85898B /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
+		F3386F2A8260779E1358024F915991FF /* RSCodeGen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCodeGen.h; path = RSBarcodes/RSCodeGen.h; sourceTree = "<group>"; };
+		F47EDB9A2DE0C8D3BF950E64266328F5 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
+		F48018DEAB926027F56619A37D804028 /* TGCameraViewController.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TGCameraViewController.xcassets; path = TGCameraViewController/TGCameraViewController.xcassets; sourceTree = "<group>"; };
+		F577DF492EF139A824386CE00FEE8C3D /* TGCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraViewController.h; path = TGCameraViewController/Classes/Control/TGCameraViewController.h; sourceTree = "<group>"; };
+		F5B768EABB1394FD8505248264B34074 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		F5C029D0694B1C2E3DFE7F356090012D /* SCLAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertView.m; path = SCLAlertView/SCLAlertView.m; sourceTree = "<group>"; };
+		F5E25C63AC41DDDB4BFF08B64028B3CE /* libMagicalRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagicalRecord.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78926ECB16DA7DF268668C9CD9C2450 /* TGCameraColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraColor.m; path = TGCameraViewController/Classes/Helper/TGCameraColor.m; sourceTree = "<group>"; };
+		F81B72BCC4272DFEC440E509596825DB /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		F930525FC913F422347408B8460BAD41 /* TGAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAlbum.m; path = TGCameraViewController/Classes/Helper/TGAlbum.m; sourceTree = "<group>"; };
+		F98A4897A5A79676CE89C0D79B97A56F /* TGCameraFocusView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFocusView.h; path = TGCameraViewController/Classes/UI/TGCameraFocusView.h; sourceTree = "<group>"; };
+		FA394430ECE296962D377D614634591D /* TGCameraFlash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFlash.m; path = TGCameraViewController/Classes/Helper/TGCameraFlash.m; sourceTree = "<group>"; };
+		FACBBB55D6E9E6B571377281E7A415B9 /* RSCode39Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCode39Generator.m; path = RSBarcodes/RSCode39Generator.m; sourceTree = "<group>"; };
+		FB782B8325B19C35A069CC50DD969A01 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		FC0A6EDC1C61411A9C65C39A3AA8AD6E /* MagicalRecord-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MagicalRecord-Private.xcconfig"; sourceTree = "<group>"; };
+		FC7E7747EC7DFBA5DB02FFCD4E815AFE /* MagicalRecordInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalRecordInternal.m; path = MagicalRecord/Core/MagicalRecordInternal.m; sourceTree = "<group>"; };
+		FF02A0FC684A3EB7793CE9C8C11CA2F9 /* FAImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E746CC44B76000EB3BD9BF567DA114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172BEC1A7A245FE2F32AAE125514D46B /* Foundation.framework in Frameworks */,
+				36496448F61C41402602F6A9533E9CD3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FDAA00D96C92745FBAE72AF61AF56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E501B02068EE6C6228F80A8E27CA6833 /* AVFoundation.framework in Frameworks */,
+				1A3AF305571C0D4AD4EADE595F4BF69C /* AssetsLibrary.framework in Frameworks */,
+				73D28EC571E261234566F4378A0A70EA /* CoreImage.framework in Frameworks */,
+				01A5EABCAC931D60F592C35626C87E39 /* Foundation.framework in Frameworks */,
+				4167AEEB1F16C729EA71D35844DC3410 /* MobileCoreServices.framework in Frameworks */,
+				C15E79C71285F9F89DE16F32C5DD40E7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798D1D76E8D559E84660C3307BFE24FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37BAFC205A5AC37240C9F0391EE1988 /* AVFoundation.framework in Frameworks */,
+				E036523C50DE59A9C8BFD51257C1CB04 /* CoreImage.framework in Frameworks */,
+				A7D06FAB2BF1DB420DE09CB10BF9E1D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856513FE2E4C1DBEB0C571F762FC0ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D002959289EEF9D048F61A9B9BC02A92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C28CAED990768F32524C0252817E013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75D20CBA85A091A6F86AE75A2A4ACAC /* CoreGraphics.framework in Frameworks */,
+				DA55B192F11D21432DD6ACF124D434EF /* Foundation.framework in Frameworks */,
+				A0AF2DF496673825FB8CEE53237C8A5F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20A43F05628DCCF5FC0830C6902C02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BD51ED3E347AF81B1C279D07CF3C70 /* CoreData.framework in Frameworks */,
+				A3C9142B1E0F6EF26505761485652DE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1504573FC73803C2929E5FEDE14C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D42AD54AC1BEF2939B6900CF52E4AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDDECF7D0C24D82121EFC2E8F313282 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18000A83A558B179E58DADE047FC8A54 /* SCLAlertView-Objective-C.xcconfig */,
+				4F27C92E3269C80EBBFA7C3283FD2536 /* SCLAlertView-Objective-C-Private.xcconfig */,
+				19893E9F07F3AD8CEAA5D4AA1121CB5E /* SCLAlertView-Objective-C-dummy.m */,
+				2F3187AE128114DF4644555D03D9B39B /* SCLAlertView-Objective-C-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		1441DBB9A99B21527CE5BF5B684ABF26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98F80A0EEF5ED492F944EFFF8EBDDE19 /* FontAwesome.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		145F3F0C4A24E37E5DA83B78C8365A9E /* FontAwesome+iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF78DCAC48DD4DA14D55CA42B7120A1F /* FAImageView.h */,
+				FF02A0FC684A3EB7793CE9C8C11CA2F9 /* FAImageView.m */,
+				2087B66C1FB78DEE66F247867C1E9C7C /* NSString+FontAwesome.h */,
+				9ED1A519D4BFE57F00A2F89056699CF6 /* NSString+FontAwesome.m */,
+				F5B768EABB1394FD8505248264B34074 /* UIFont+FontAwesome.h */,
+				0FACA1539896D42821CD0FDD12181F4B /* UIFont+FontAwesome.m */,
+				58F72553F393E2EDB1E2BA830070BC2B /* UIImage+FontAwesome.h */,
+				F0834BE09AB33B41033A6216ED85898B /* UIImage+FontAwesome.m */,
+				1441DBB9A99B21527CE5BF5B684ABF26 /* Resources */,
+				C192B0306FF791EF544EE70BA5D5AE67 /* Support Files */,
+			);
+			path = "FontAwesome+iOS";
+			sourceTree = "<group>";
+		};
+		196F9763184AF726DAE0F32DE20AFE84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12BAA67EE6BB06045EE037171C41A58A /* RSBarcodes.xcconfig */,
+				7F7EB4504D2699B4C343D05306C7CCE8 /* RSBarcodes-Private.xcconfig */,
+				A76632D522B44C57B3464186941ABF50 /* RSBarcodes-dummy.m */,
+				03FC2E3759308B9407A7B0D7075078BB /* RSBarcodes-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSBarcodes";
+			sourceTree = "<group>";
+		};
+		24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F6E6293A5362BE84F48207E28BCACE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5211ACCEDF7AEC52F536FB92B3ED03C4 /* PPiAwesomeButton */ = {
+			isa = PBXGroup;
+			children = (
+				42AF9517A14585F51670BA502C1FFDBF /* UIAwesomeButton.h */,
+				04708190E924281BD365A2CF530A0FD4 /* UIAwesomeButton.m */,
+				6428F48AC03062629D25BC9C279DACE7 /* UIButton+PPiAwesome.h */,
+				1187E8BE3DBEC878D362859DA3BC31C9 /* UIButton+PPiAwesome.m */,
+				CBFB81656F66C9E5815573A130E55B67 /* Support Files */,
+			);
+			path = PPiAwesomeButton;
+			sourceTree = "<group>";
+		};
+		65F6E6293A5362BE84F48207E28BCACE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2251AB8E864DCDF581E9756A2125FC72 /* AVFoundation.framework */,
+				B47F7322A2BA59DE597C74C9E1ECAC12 /* AssetsLibrary.framework */,
+				D1F894AF3285A3D5B08C125308AF7509 /* CoreData.framework */,
+				A1D48754A2EE02637AABC74B1BFB5AEF /* CoreGraphics.framework */,
+				976D9820BFF7A5F3A5D9325FB48B105D /* CoreImage.framework */,
+				862205226B291B51F870AF8C9A48FE5B /* Foundation.framework */,
+				BFAE34FC1FE6DA937B23A3180CA7DED1 /* MobileCoreServices.framework */,
+				1CCCA93D0B21D6DFA8CE87FD0128A9FB /* QuartzCore.framework */,
+				EC693B72213A9EB302E42C469E8FA136 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */,
+				859997415A2819668002AC424D5CA327 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		859997415A2819668002AC424D5CA327 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				145F3F0C4A24E37E5DA83B78C8365A9E /* FontAwesome+iOS */,
+				F1430A13237D49D860FCBE57DD494C38 /* MagicalRecord */,
+				5211ACCEDF7AEC52F536FB92B3ED03C4 /* PPiAwesomeButton */,
+				BDDB61F5979CA4167ACEA1F168DB04C5 /* RSBarcodes */,
+				D1E6960AA60BE53064A5D64894AC9007 /* SCLAlertView-Objective-C */,
+				C8C5503B79D965777DBBA4CC9CDD2C2D /* TGCameraViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				6849B66D0A596A0FFAB3B812C964629F /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				A8E4EDFF7646DF1F617CF0CC9546C61B /* Pods.debug.xcconfig */,
+				7910047285960A4EEC6253CA560BB56C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BDDB61F5979CA4167ACEA1F168DB04C5 /* RSBarcodes */ = {
+			isa = PBXGroup;
+			children = (
+				EF6AB5D0D791EF0B267EA283AD48D2D4 /* RSBarcodes.h */,
+				57AF9D8BEB6E87550489B9925BFABD83 /* RSCode128Generator.h */,
+				61A74B0B16FD583CCBE671D4AB7C374F /* RSCode128Generator.m */,
+				9734492ACE7BA3ED817729EB349AE4D4 /* RSCode39Generator.h */,
+				FACBBB55D6E9E6B571377281E7A415B9 /* RSCode39Generator.m */,
+				75A0726A977EF753E11DF697A91639F5 /* RSCode39Mod43Generator.h */,
+				76DC5D95B2222F12A85920FC44DCC98B /* RSCode39Mod43Generator.m */,
+				0A19B416260793C71738CE8D76EFFC8C /* RSCode93Generator.h */,
+				1F9D93A6C8D15A52CB103DB6C89F824C /* RSCode93Generator.m */,
+				F3386F2A8260779E1358024F915991FF /* RSCodeGen.h */,
+				055D707F5496D8BD0187A22044136327 /* RSCodeGenerator.h */,
+				897CA5A7F68D4880FF3593D54134A16F /* RSCodeGenerator.m */,
+				264306708DDA8A19C043BBD0FF161472 /* RSCodeView.h */,
+				BB6C77951A3A5DFCDB25AF0A495B4BDC /* RSCodeView.m */,
+				165C1A61C53952721F6A0FB6FB2FAA07 /* RSCornersView.h */,
+				E99713FD12578A539A10192DC33D1EFC /* RSCornersView.m */,
+				CB89A465E1D90016BAFF5DB39C56CE0C /* RSEAN13Generator.h */,
+				69FF7F05046406AE74DF8B67844EABBA /* RSEAN13Generator.m */,
+				C315C2495A13BFB730C0F18725970F8E /* RSEAN8Generator.h */,
+				1B1C40261D1F5288036D9BF1F0316549 /* RSEAN8Generator.m */,
+				7FFFECE10F9520E866AD2AFFA70E2765 /* RSEANGenerator.h */,
+				D0079BD8CCCC5ED31FBE8788692ADE19 /* RSEANGenerator.m */,
+				058C84DD011CAC27AD81A83E0049D942 /* RSExtendedCode39Generator.h */,
+				6B3FB86853EE5D0017815344231B96CD /* RSExtendedCode39Generator.m */,
+				99BF5099251C4019C6BC123A46F237D6 /* RSISBN13Generator.h */,
+				43A09660D903FD3E48886DF4A33770C2 /* RSISBN13Generator.m */,
+				1D242651934349D9313A5F17CF12C6F4 /* RSISSN13Generator.h */,
+				C589D760233CDCC3E04041A51F6F2240 /* RSISSN13Generator.m */,
+				77D349146E883353D4A67B8F15734F7F /* RSITF14Generator.h */,
+				5EC3A3E35BA04E9BC5774091662E1CA5 /* RSITF14Generator.m */,
+				5B9B713B92D468AC5EAD4480EC024118 /* RSITFGenerator.h */,
+				E02540951193C9169D42E473CB557C27 /* RSITFGenerator.m */,
+				CD29FEB383D8C7399F665C46A2D8C60A /* RSScannerViewController.h */,
+				385AFA293EFD26B7F197AFE7D1DED21B /* RSScannerViewController.m */,
+				0AF08CCAD56EBB8C2EE409F022690558 /* RSUPCEGenerator.h */,
+				EA79B40433245E95D4C8A22D94E4804F /* RSUPCEGenerator.m */,
+				1E895739AB6551EBC79DBF00D8783372 /* RSUnifiedCodeGenerator.h */,
+				A57C3FAB86E3BEA2FCB2DC660DBB9F69 /* RSUnifiedCodeGenerator.m */,
+				196F9763184AF726DAE0F32DE20AFE84 /* Support Files */,
+			);
+			path = RSBarcodes;
+			sourceTree = "<group>";
+		};
+		C192B0306FF791EF544EE70BA5D5AE67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9D3AD3BF0446E1F6B069A849B5166 /* FontAwesome+iOS.xcconfig */,
+				6C050499F652F99DDAFC98A525E00FBB /* FontAwesome+iOS-Private.xcconfig */,
+				0BF3299BD20A10E1EBE17428A5E3B6E9 /* FontAwesome+iOS-dummy.m */,
+				CECF3C6A7D07FE0FFA96CEAA34A886F8 /* FontAwesome+iOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome+iOS";
+			sourceTree = "<group>";
+		};
+		C8C5503B79D965777DBBA4CC9CDD2C2D /* TGCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4FAC8C227CDBFB3DD1292F2CA7D4D4D6 /* TGAlbum.h */,
+				F930525FC913F422347408B8460BAD41 /* TGAlbum.m */,
+				DA6BBCF41449BCACE798075097D5F4D9 /* TGAssetImageFile.h */,
+				5CFE277C4FDCEC7EF47F4963141CC6D9 /* TGAssetImageFile.m */,
+				EE1A4651C945076D376C590FA5D20466 /* TGAssetsLibrary.h */,
+				980676B8AA4006E8065751DCDF2CE405 /* TGAssetsLibrary.m */,
+				A268205B44A23656EE08E1F1AFD4702B /* TGCamera.h */,
+				45E06F587FD610FB3EAF325F2F0B772B /* TGCamera.m */,
+				42296F89D42B4CCA4CA9E9F7A8C80C70 /* TGCameraAuthorizationViewController.h */,
+				E7728D2E0696A0E9F4A5B0482507FB10 /* TGCameraAuthorizationViewController.m */,
+				2F451670D97CC160D6D4119DF75D6F9A /* TGCameraColor.h */,
+				F78926ECB16DA7DF268668C9CD9C2450 /* TGCameraColor.m */,
+				492B4965866A120773B3532F7E361533 /* TGCameraFilterView.h */,
+				C35EAE51ADD98882AF58109584DA7762 /* TGCameraFilterView.m */,
+				818C5DC1A8F0050E6803C7E7D04864B8 /* TGCameraFlash.h */,
+				FA394430ECE296962D377D614634591D /* TGCameraFlash.m */,
+				51B42392DA3300673C03A436D1836D07 /* TGCameraFocus.h */,
+				394ECBFD29E7B9594D234C57CE37D8F0 /* TGCameraFocus.m */,
+				F98A4897A5A79676CE89C0D79B97A56F /* TGCameraFocusView.h */,
+				226F10FEDBC01B67736DA8F79C8D33F7 /* TGCameraFocusView.m */,
+				690CADBA2B1D86F2C889205747F0AAF6 /* TGCameraFunctions.h */,
+				1A0A5FADFB0C5809527468CB72F71020 /* TGCameraGrid.h */,
+				C3A0C93BB75D3F799B08DD017C4D4C6A /* TGCameraGrid.m */,
+				0DF6FC95C38270304C7D92D3F18BBA6B /* TGCameraGridView.h */,
+				45211F83ACF5335C6BF5252B7E732E21 /* TGCameraGridView.m */,
+				648986B79D105766AF4AA9489000906A /* TGCameraNavigationController.h */,
+				DE15BF9909BB54604CC6118D1FF7653E /* TGCameraNavigationController.m */,
+				C1BA65D86030977B8651C25C9E556B38 /* TGCameraShot.h */,
+				C9E95BAD5157C595193DE88E855FBC6A /* TGCameraShot.m */,
+				1A211FF42CBCACD27970CF054F7A8D82 /* TGCameraSlideDownView.h */,
+				1509F12943F0615A9F608DB87670A9AE /* TGCameraSlideDownView.m */,
+				4A9FE00FAD1884F5B26D8783BC7D9CFF /* TGCameraSlideUpView.h */,
+				51A7DB9DEB31A34649781D6833477574 /* TGCameraSlideUpView.m */,
+				105E40A56841F86F2B9D6FDBC2C26749 /* TGCameraSlideView.h */,
+				5A9F7C7B7FEAED2AF68B3C59FDD955DD /* TGCameraSlideView.m */,
+				E65C2DBC74EF2D6C666D04F728AFB4B3 /* TGCameraToggle.h */,
+				D136A90EF31235D9A63F1C04F07C3375 /* TGCameraToggle.m */,
+				F577DF492EF139A824386CE00FEE8C3D /* TGCameraViewController.h */,
+				8ED71946E5C1147DFBD4F5DB0BC9CCE6 /* TGCameraViewController.m */,
+				19EF1D9EB08618436C10372AC4186223 /* TGPhotoViewController.h */,
+				53065F779228DA51E76809C46A1C0FB8 /* TGPhotoViewController.m */,
+				1CC8551E6A0A2EB002B5638B89DA8D3B /* TGTintedButton.h */,
+				E9F92E535E0BB98AB43338648BE7F937 /* TGTintedButton.m */,
+				E8C897D1C0DB112F7DD540C9EF622923 /* TGTintedLabel.h */,
+				22440F3DF9CCF9E94BC7F5E8978969CF /* TGTintedLabel.m */,
+				A49DD65A8DAECEA0F63BA60D99BDD428 /* UIImage+CameraFilters.h */,
+				E2B4C57B44D071001D769187C2A47F3B /* UIImage+CameraFilters.m */,
+				D338434435A08FA33C02B88063744C98 /* Resources */,
+				D15B8064BB0D8AA4BA7A3D82272758ED /* Support Files */,
+			);
+			path = TGCameraViewController;
+			sourceTree = "<group>";
+		};
+		CB5BB6B1040621D2CB21E22EBBCADF6B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D26AC644C29C983BC90BCFF391F221 /* MagicalRecord.xcconfig */,
+				FC0A6EDC1C61411A9C65C39A3AA8AD6E /* MagicalRecord-Private.xcconfig */,
+				A43E6457BDA1393F98611DAECBF7B16C /* MagicalRecord-dummy.m */,
+				205E86F2F8D51A69CEF9258D29AAA3F7 /* MagicalRecord-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MagicalRecord";
+			sourceTree = "<group>";
+		};
+		CBFB81656F66C9E5815573A130E55B67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B35D8FB76AE212953C487C56D543B90B /* PPiAwesomeButton.xcconfig */,
+				5319411B8556054B968D3D64B9494D38 /* PPiAwesomeButton-Private.xcconfig */,
+				487D71787024FAB6ED011CDB0FE808E6 /* PPiAwesomeButton-dummy.m */,
+				30B01C53AEED20EBA9FD34169791FF97 /* PPiAwesomeButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PPiAwesomeButton";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BEDBCBE8A7496AE1FF414900F6605F /* libFontAwesome+iOS.a */,
+				F5E25C63AC41DDDB4BFF08B64028B3CE /* libMagicalRecord.a */,
+				D07914FC796E79A6D1A25384CDE720E6 /* libPPiAwesomeButton.a */,
+				0D1A717129280F9B8DD786EE36F28FDD /* libPods.a */,
+				0418106554598D5BD6BEAA91A6F7E590 /* libRSBarcodes.a */,
+				0A44207DD297568CD9056F34448BF517 /* libSCLAlertView-Objective-C.a */,
+				B78B3431D193F4CB3AF4D99CAE99B610 /* libTGCameraViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D15B8064BB0D8AA4BA7A3D82272758ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D78AACCF0D5D39E6EA85903FA62A36AF /* TGCameraViewController.xcconfig */,
+				121A7EC1700BCCAF6C7512CBD0213176 /* TGCameraViewController-Private.xcconfig */,
+				76F1069F5AEC743CA26B95EC33671F93 /* TGCameraViewController-dummy.m */,
+				029ABC00C5FBA44F7485A130BADA1250 /* TGCameraViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TGCameraViewController";
+			sourceTree = "<group>";
+		};
+		D1E6960AA60BE53064A5D64894AC9007 /* SCLAlertView-Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				8C47A03EA8E8DBD9B4877601C0C0F01F /* SCLAlertView.h */,
+				F5C029D0694B1C2E3DFE7F356090012D /* SCLAlertView.m */,
+				8A6CD7E98F851B3C5F4113C14DD83910 /* SCLAlertViewResponder.h */,
+				1C9DB388270702F4D0734555D6DC70C6 /* SCLAlertViewResponder.m */,
+				AEEA66C23D036BD114D8CF1965F49D5B /* SCLAlertViewStyleKit.h */,
+				1BDA7D71A4147BE84EE855BE65D0429A /* SCLAlertViewStyleKit.m */,
+				C621C2B8B1A2ED3CD1AC3FE4E816BBCB /* SCLButton.h */,
+				4A561FB6DB5DDD8968222604FCCC270D /* SCLButton.m */,
+				1C5C36413262AEA71C25FB63549A9FA1 /* SCLMacros.h */,
+				1C0C3AF715EFC36990220693A385181B /* SCLTextView.h */,
+				6E616759853D9F3FCF96C7BD655EAFBA /* SCLTextView.m */,
+				014A200091A435EA7E517792E7D24F06 /* SCLTimerDisplay.h */,
+				35064BB73BC7EE01956A450AF5522B16 /* SCLTimerDisplay.m */,
+				C9879F245CE78C1A2E56334532E1AEB4 /* UIImage+ImageEffects.h */,
+				5341C20E32A3F9B6BCDFB3203C3CC595 /* UIImage+ImageEffects.m */,
+				0DDDECF7D0C24D82121EFC2E8F313282 /* Support Files */,
+			);
+			path = "SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D338434435A08FA33C02B88063744C98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FF37CCC7F78F9C16CF760F28A11DBC0 /* TGCameraAuthorizationViewController.xib */,
+				952D0F6F060987B88234E00C14636150 /* TGCameraViewController.bundle */,
+				F48018DEAB926027F56619A37D804028 /* TGCameraViewController.xcassets */,
+				1E565C156DCAFC21C26D465A4431F7D7 /* TGCameraViewController.xib */,
+				70B46066ACC900CAFBC89E62BDE087ED /* TGPhotoViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F1430A13237D49D860FCBE57DD494C38 /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				5881F9AEB2FE7AAB363CE071EB1D639C /* MagicalImportFunctions.h */,
+				4F4A6334E82C40EDB9D62811888E6209 /* MagicalImportFunctions.m */,
+				8138E65B3F0ACB98025D28A47B4014F0 /* MagicalRecord.h */,
+				0C95CBB1AAF1A004D9F6C57C4DED666F /* MagicalRecord+Actions.h */,
+				C142730BDE128F742D6F8DB066A80C7C /* MagicalRecord+Actions.m */,
+				16EC55B622E7FBB8A6F4A738F7E86F0D /* MagicalRecord+ErrorHandling.h */,
+				078A7754864F30D50645F70759B2BD1E /* MagicalRecord+ErrorHandling.m */,
+				E73244D22C02D1C6C1D43E59145AB5B2 /* MagicalRecord+Options.h */,
+				33F51F3C913880C18F20C28298D0B714 /* MagicalRecord+Options.m */,
+				15CAA327F7BB18DA4114BA4F444421C0 /* MagicalRecord+Setup.h */,
+				4D2E547442E8F93DAB7CBDD6B491ECA9 /* MagicalRecord+Setup.m */,
+				74CCEB7D52E709551E9BD1B4B8B38AAD /* MagicalRecord+ShorthandMethods.h */,
+				A731B14CAA7753143A9EBC0ECB453410 /* MagicalRecord+ShorthandMethods.m */,
+				F47EDB9A2DE0C8D3BF950E64266328F5 /* MagicalRecord+iCloud.h */,
+				5553E14E601B3248F02D6E297AC53DC8 /* MagicalRecord+iCloud.m */,
+				044538809166F527F3DF593C8BB09A28 /* MagicalRecordDeprecationMacros.h */,
+				6E6C49F340001CB96678AE12B45B6EC4 /* MagicalRecordInternal.h */,
+				FC7E7747EC7DFBA5DB02FFCD4E815AFE /* MagicalRecordInternal.m */,
+				246F3DF0CED147F0B3FFE697D797A28C /* MagicalRecordLogging.h */,
+				EE8C55BE1A69E1516B7DD49B9177A670 /* MagicalRecordShorthandMethodAliases.h */,
+				F81B72BCC4272DFEC440E509596825DB /* NSAttributeDescription+MagicalDataImport.h */,
+				C7E5CE1395A7A7B5290E6A107681718A /* NSAttributeDescription+MagicalDataImport.m */,
+				FB782B8325B19C35A069CC50DD969A01 /* NSEntityDescription+MagicalDataImport.h */,
+				ACE227AA19FBC70760FCA73852523B52 /* NSEntityDescription+MagicalDataImport.m */,
+				5D084BC3498337EF8DF69F578996B9BE /* NSManagedObject+MagicalAggregation.h */,
+				84A66A9BE00BB6D1F66A52EE79BDFC9E /* NSManagedObject+MagicalAggregation.m */,
+				81516D9C9558D9FBCFB87D117E66D16A /* NSManagedObject+MagicalDataImport.h */,
+				2FD91D4138CA8353C1388B5E14CCFFDB /* NSManagedObject+MagicalDataImport.m */,
+				9338B73FF4239FF0B64669626F2409FC /* NSManagedObject+MagicalFinders.h */,
+				906D0FA1D3B4953DB02FB77BED6DAFCB /* NSManagedObject+MagicalFinders.m */,
+				D9BC2417BE20A30993B7077D0CB0F92B /* NSManagedObject+MagicalRecord.h */,
+				E76FE30E75BCF8D3FCD7231F7E17A3FB /* NSManagedObject+MagicalRecord.m */,
+				938CA6F5ECF4541E40DE3294E031D478 /* NSManagedObject+MagicalRequests.h */,
+				9198ACAFFAD023BBB3BF3FA10B78A0E6 /* NSManagedObject+MagicalRequests.m */,
+				020FC9BADA2847155F91ABB8B8E7F93F /* NSManagedObjectContext+MagicalChainSave.h */,
+				CEABBC4D5AB9CE9F9A4DB58AB8832697 /* NSManagedObjectContext+MagicalChainSave.m */,
+				ED9ABC2D1670D0F22A75257DE141BADC /* NSManagedObjectContext+MagicalObserving.h */,
+				4A3297655079F78AD450D632D347C8E5 /* NSManagedObjectContext+MagicalObserving.m */,
+				8C55F4EE3F21A3EEAC63EDEF33FAD27C /* NSManagedObjectContext+MagicalRecord.h */,
+				1C8334A8CE19C61DFD9B304C7A9E2007 /* NSManagedObjectContext+MagicalRecord.m */,
+				936D4D7067C55941382C61634A9F784D /* NSManagedObjectContext+MagicalSaves.h */,
+				224C1316B56BD47BF43C78AFF4D3B336 /* NSManagedObjectContext+MagicalSaves.m */,
+				05CB2A6B95896687D92A445167445724 /* NSManagedObjectContext+MagicalThreading.h */,
+				BE56762324A6D568242CD0CF8E889039 /* NSManagedObjectContext+MagicalThreading.m */,
+				EA1FF3537D1114DBF453CE4DE0A453C2 /* NSManagedObjectModel+MagicalRecord.h */,
+				3D9E9279532D38724067AB9E701766E7 /* NSManagedObjectModel+MagicalRecord.m */,
+				1C750F0BDD3A00E1A6B53709EB3C7909 /* NSNumber+MagicalDataImport.h */,
+				88E2946BE76A9D1D4EC592E6B6D5C8E0 /* NSNumber+MagicalDataImport.m */,
+				9E522F657EC15CA6A380A7F869161BF6 /* NSObject+MagicalDataImport.h */,
+				C8352DF4B5DF7B2B2E9B801E1B72A80F /* NSObject+MagicalDataImport.m */,
+				C4D598DC05AE826DC9684710C0B9B020 /* NSPersistentStore+MagicalRecord.h */,
+				DD259F2C0DD2E998C3ADF2290A308515 /* NSPersistentStore+MagicalRecord.m */,
+				9E728E1EBBE56ECF08F68F744E9EE616 /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				35CBB74625A1533068B842188A5D501B /* NSPersistentStoreCoordinator+MagicalRecord.m */,
+				A2B65CFC751521C1461C8670AAE33F0E /* NSRelationshipDescription+MagicalDataImport.h */,
+				7DB2D712872C09A7D0E4BDF457E22D8A /* NSRelationshipDescription+MagicalDataImport.m */,
+				7927BE5997CEB2456124B6DB617E3558 /* NSString+MagicalDataImport.h */,
+				9AEF6AB410A73948F40547D569C5780A /* NSString+MagicalDataImport.m */,
+				CB5BB6B1040621D2CB21E22EBBCADF6B /* Support Files */,
+			);
+			path = MagicalRecord;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B488007149B519226C392CF501EB56B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653A4E310F6EB0D564265A934DEA2CA8 /* MagicalImportFunctions.h in Headers */,
+				6056CE1C96794E2FBBFE8B88DCFC2FCE /* MagicalRecord+Actions.h in Headers */,
+				188392AE01D238D5D4D477972AA1A1F2 /* MagicalRecord+ErrorHandling.h in Headers */,
+				7F1F41D599C47BCEBEDCD93AFC59B6F8 /* MagicalRecord+Options.h in Headers */,
+				08D49D436BBAD369FD270417DE119A0A /* MagicalRecord+Setup.h in Headers */,
+				9495045953CD88406A69CFA11CFF1A2E /* MagicalRecord+ShorthandMethods.h in Headers */,
+				F3BF87437A461BFA21BFEE7276D817EA /* MagicalRecord+iCloud.h in Headers */,
+				C8288982C09FEA4AB1E97F83FE8F6721 /* MagicalRecord.h in Headers */,
+				3E07AE45C83D7B24C5D518F37C4FF077 /* MagicalRecordDeprecationMacros.h in Headers */,
+				7A2AD70D4A26DDF84641D8B989DFC03E /* MagicalRecordInternal.h in Headers */,
+				8AE826E032DE64E876645EC62F30212E /* MagicalRecordLogging.h in Headers */,
+				0FC8E5BF13EF0A4A81BD3FDE0E0B20C1 /* MagicalRecordShorthandMethodAliases.h in Headers */,
+				C28C6750796E25A892D18549F985CDC6 /* NSAttributeDescription+MagicalDataImport.h in Headers */,
+				0B3310145391075142ECCE43865672D6 /* NSEntityDescription+MagicalDataImport.h in Headers */,
+				7FE1A58424E891D2FDD7F306B1476387 /* NSManagedObject+MagicalAggregation.h in Headers */,
+				5CA0938DC173CF7A2ACE18A4ADF993A4 /* NSManagedObject+MagicalDataImport.h in Headers */,
+				2B17670324426CB6EA6EE237F751F201 /* NSManagedObject+MagicalFinders.h in Headers */,
+				77E6D929920E1E0DAD8CF1BC7B38A876 /* NSManagedObject+MagicalRecord.h in Headers */,
+				E4D36902AC2262D6DEAB6787AFCACA40 /* NSManagedObject+MagicalRequests.h in Headers */,
+				11AC79F40C718173566018E7207A1661 /* NSManagedObjectContext+MagicalChainSave.h in Headers */,
+				308FAE892E8BB18FB8BCC56CC5AD558A /* NSManagedObjectContext+MagicalObserving.h in Headers */,
+				B9B6A7BF9BB20F6D30EDD6B8213DA44B /* NSManagedObjectContext+MagicalRecord.h in Headers */,
+				13185E83314C8DA911F115A2EA3A5366 /* NSManagedObjectContext+MagicalSaves.h in Headers */,
+				AF577C7DE99701B3896B64CC46180B8C /* NSManagedObjectContext+MagicalThreading.h in Headers */,
+				410890D6FC57452793A37D8453C3349A /* NSManagedObjectModel+MagicalRecord.h in Headers */,
+				D634D16C259F4AAE578AAEF783AA69BA /* NSNumber+MagicalDataImport.h in Headers */,
+				E352B0139328830844AD9F8884D242BB /* NSObject+MagicalDataImport.h in Headers */,
+				E2638488C11B8C1F5305AD2E56499506 /* NSPersistentStore+MagicalRecord.h in Headers */,
+				B0745A51C2C583A94436CCFFC1063FD2 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */,
+				BF8707C5104D8A22FC5556D3A9B00A78 /* NSRelationshipDescription+MagicalDataImport.h in Headers */,
+				A826ACC0793BEC1C88C06A5EFCFD5EFE /* NSString+MagicalDataImport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452DDE34F255090E8DCC4A9EDD673F04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2727E3F15DD91C02E54864CF668522 /* FAImageView.h in Headers */,
+				8577DFC340B7392DB523E0E45F90A4D1 /* NSString+FontAwesome.h in Headers */,
+				14D2D61499558CE4F8C20F97B9B5A761 /* UIFont+FontAwesome.h in Headers */,
+				E2D72EFCB6B436ECB7154EDFB0AD4CEB /* UIImage+FontAwesome.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96892FC17BA69B82FE9C6A3A772A2C28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3F17F239F662649AE8D2F884B14220 /* SCLAlertView.h in Headers */,
+				3BD694A648C735124D4CEF34401D9BEF /* SCLAlertViewResponder.h in Headers */,
+				3F6D5AC492BCD62696884D6CB946004B /* SCLAlertViewStyleKit.h in Headers */,
+				45CBB6BAFA89EDC0822090978A0E3EB4 /* SCLButton.h in Headers */,
+				02988925A0CE6C82C6376AE7BD66D9CA /* SCLMacros.h in Headers */,
+				FE3AB7250EDC49B28C51A97A10F01545 /* SCLTextView.h in Headers */,
+				537DE5D846B691C1BBB25DA178A4C305 /* SCLTimerDisplay.h in Headers */,
+				37EBEEB33D8A387827A475A447E747F8 /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27006A87044463A4D6DE2574E80D8A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FD9F5055197B13020B8DC505FA2A21 /* TGAlbum.h in Headers */,
+				4A72E0B1D42322BEB24D771B6609A776 /* TGAssetImageFile.h in Headers */,
+				800DF5206B69E4B074EF1EFDC54AD0DD /* TGAssetsLibrary.h in Headers */,
+				162CDF0615E08185EA51CDE7543F6747 /* TGCamera.h in Headers */,
+				3F4358FAECE5FA765E882C082BF57A08 /* TGCameraAuthorizationViewController.h in Headers */,
+				388F96AE93E419B22CF35E672DDF4888 /* TGCameraColor.h in Headers */,
+				73DCAECC88C6725C483450D515105ACC /* TGCameraFilterView.h in Headers */,
+				9688E14D7E2B5F75536B856019AC0803 /* TGCameraFlash.h in Headers */,
+				5EDFD118C5E9012D068FF50D267BB159 /* TGCameraFocus.h in Headers */,
+				2751F1E7367925DF0A2AD292D509E11F /* TGCameraFocusView.h in Headers */,
+				4F8640B2823260B7F246EA2BF44A3BAC /* TGCameraFunctions.h in Headers */,
+				336FD48E3EFCE21F4FAF1201569FBE0F /* TGCameraGrid.h in Headers */,
+				2A180177EF89F7A07B41F02907CE4E03 /* TGCameraGridView.h in Headers */,
+				77860E54CE24D2890DB88E5A974047B8 /* TGCameraNavigationController.h in Headers */,
+				B12F44F1641E1042A04D5544C0E5BF48 /* TGCameraShot.h in Headers */,
+				4C28533DCA39AAC0A0CF72580351DDB1 /* TGCameraSlideDownView.h in Headers */,
+				93AD018B9AB5E3DE80A447ED219EC288 /* TGCameraSlideUpView.h in Headers */,
+				91823F9736562DE90DEDE48E26EE5ED8 /* TGCameraSlideView.h in Headers */,
+				68B549073C9888B7BB81D5F2D1A47C1A /* TGCameraToggle.h in Headers */,
+				86658543477CC9112F99AA7031E4F56A /* TGCameraViewController.h in Headers */,
+				23F671025EBA1D5033EB65F8382C989E /* TGPhotoViewController.h in Headers */,
+				DC735FC6BBEE042B7060FBAB6F7E5FDE /* TGTintedButton.h in Headers */,
+				03B60B2CAC48CA526E31AFBD14BA223E /* TGTintedLabel.h in Headers */,
+				FE9598A0227FA70963C26A57C429354B /* UIImage+CameraFilters.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA691E81E12F9F5EC5498B627BCF82BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E0FEB722F2EB41C5219B41D0711929 /* RSBarcodes.h in Headers */,
+				93C31A35B01944A740EFB921AB9C6B82 /* RSCode128Generator.h in Headers */,
+				D69DE3745F302273434F2CC0DFBD1506 /* RSCode39Generator.h in Headers */,
+				DC5484C706752E7343D74F9228CEAE9F /* RSCode39Mod43Generator.h in Headers */,
+				91CFFE54B9B03FB41F45444F729E34BF /* RSCode93Generator.h in Headers */,
+				8ED9BCBB5CC4E11533A8812B66119AE5 /* RSCodeGen.h in Headers */,
+				21DD3AAA41356029EE39DF0A0CA64FCE /* RSCodeGenerator.h in Headers */,
+				5D2F49030488CB568A425B03E6A59904 /* RSCodeView.h in Headers */,
+				898F234D635C031E53EC6486E241B9EB /* RSCornersView.h in Headers */,
+				69DD5F7E2D63C19B995EF143A77C31AC /* RSEAN13Generator.h in Headers */,
+				47005B3C94CD93976091ABF299A873E0 /* RSEAN8Generator.h in Headers */,
+				D90F18B9DFF23A7B8EBD464F5B02A2DE /* RSEANGenerator.h in Headers */,
+				7FD8126DDB2898D277BC9E3F25685B35 /* RSExtendedCode39Generator.h in Headers */,
+				2A2C1A12AAA2A1463C2B9C65CEB8B1AA /* RSISBN13Generator.h in Headers */,
+				1D632B65BCB70F00F69C140B843DB7EC /* RSISSN13Generator.h in Headers */,
+				C07E1ED63B5473595F09EF559310FE7E /* RSITF14Generator.h in Headers */,
+				689BE3575723885E17FD9191B70E670B /* RSITFGenerator.h in Headers */,
+				A6736CBD590753B5A8173511FDC21703 /* RSScannerViewController.h in Headers */,
+				DF14A7DCA0924AF94D9E283833EB83AE /* RSUPCEGenerator.h in Headers */,
+				C4F2B65331C53332D3B6E7439B593F08 /* RSUnifiedCodeGenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6E30A35D13B002849838324CFA7DB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147E8FAE484A444C79DC6DDA18636E1C /* UIAwesomeButton.h in Headers */,
+				961184090D5AEDD70B14A83AA84D2B52 /* UIButton+PPiAwesome.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60D25655E8A3C73772FC9B5264508EF1 /* RSBarcodes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882D24EE438536DEDA8C8E0E3E1C8910 /* Build configuration list for PBXNativeTarget "RSBarcodes" */;
+			buildPhases = (
+				38185FE187E6F9C867E53ECB91FEA404 /* Sources */,
+				798D1D76E8D559E84660C3307BFE24FE /* Frameworks */,
+				AA691E81E12F9F5EC5498B627BCF82BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSBarcodes;
+			productName = RSBarcodes;
+			productReference = 0418106554598D5BD6BEAA91A6F7E590 /* libRSBarcodes.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		621D54AA30635A54F156A49E42160DFE /* FontAwesome+iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C39EE8C743CE95B5D4D56EA845EF47 /* Build configuration list for PBXNativeTarget "FontAwesome+iOS" */;
+			buildPhases = (
+				B61543EBB49BB0137DFA60A90166AC0D /* Sources */,
+				8C28CAED990768F32524C0252817E013 /* Frameworks */,
+				452DDE34F255090E8DCC4A9EDD673F04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontAwesome+iOS";
+			productName = "FontAwesome+iOS";
+			productReference = C5BEDBCBE8A7496AE1FF414900F6605F /* libFontAwesome+iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6720D97BB79FA933697EC16E5F052894 /* SCLAlertView-Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6573C9EA65BA8AF7B578633A559C8F52 /* Build configuration list for PBXNativeTarget "SCLAlertView-Objective-C" */;
+			buildPhases = (
+				52C1EDFF5A80B109E466A3CF686D0E28 /* Sources */,
+				EA1504573FC73803C2929E5FEDE14C1B /* Frameworks */,
+				96892FC17BA69B82FE9C6A3A772A2C28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SCLAlertView-Objective-C";
+			productName = "SCLAlertView-Objective-C";
+			productReference = 0A44207DD297568CD9056F34448BF517 /* libSCLAlertView-Objective-C.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		801CBDF132E05A15F192C8F7CBE4C981 /* PPiAwesomeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B2257B60EF099FCB767550A4EBD789 /* Build configuration list for PBXNativeTarget "PPiAwesomeButton" */;
+			buildPhases = (
+				58F0C46042E2725BD26BA627C687939A /* Sources */,
+				32E746CC44B76000EB3BD9BF567DA114 /* Frameworks */,
+				BD6E30A35D13B002849838324CFA7DB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6E0B9A836E67F4C7064A3FF1919B919 /* PBXTargetDependency */,
+			);
+			name = PPiAwesomeButton;
+			productName = PPiAwesomeButton;
+			productReference = D07914FC796E79A6D1A25384CDE720E6 /* libPPiAwesomeButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		821F67E914762512F3AA7B3C610DBE81 /* TGCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002795BFD09A4C1682EF636A53B5718A /* Build configuration list for PBXNativeTarget "TGCameraViewController" */;
+			buildPhases = (
+				E728F2AF5B3345AADD3C51B42F86EBFC /* Sources */,
+				37FDAA00D96C92745FBAE72AF61AF56E /* Frameworks */,
+				A27006A87044463A4D6DE2574E80D8A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGCameraViewController;
+			productName = TGCameraViewController;
+			productReference = B78B3431D193F4CB3AF4D99CAE99B610 /* libTGCameraViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9576B00F56E539F11B13D9A0DCE73E8E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10949878059A3E0913624C85E160BA39 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				20BD2843CB990B9C0040C3F0483FA53B /* Sources */,
+				856513FE2E4C1DBEB0C571F762FC0ACF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE2575CE8556CC32A76707CDBD5186C /* PBXTargetDependency */,
+				774056C2533A75B6827B50BC71954A2B /* PBXTargetDependency */,
+				59FDDA18598FB53C42B3602F286CE55C /* PBXTargetDependency */,
+				B3842BD8D00B588CF622C068EAD09371 /* PBXTargetDependency */,
+				E41AB3191B167AD7D1601A5C7F45CF87 /* PBXTargetDependency */,
+				62E06EF6B68A9A3E2B693C63C237CC86 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 0D1A717129280F9B8DD786EE36F28FDD /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF550BF0E3E0932EC3BC148603DF10F8 /* MagicalRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C79315A3E2B26B37780E46793B79AA4 /* Build configuration list for PBXNativeTarget "MagicalRecord" */;
+			buildPhases = (
+				24AF26D1C42D3F580F84AF1B06B245A6 /* Sources */,
+				E20A43F05628DCCF5FC0830C6902C02B /* Frameworks */,
+				3B488007149B519226C392CF501EB56B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalRecord;
+			productName = MagicalRecord;
+			productReference = F5E25C63AC41DDDB4BFF08B64028B3CE /* libMagicalRecord.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621D54AA30635A54F156A49E42160DFE /* FontAwesome+iOS */,
+				AF550BF0E3E0932EC3BC148603DF10F8 /* MagicalRecord */,
+				801CBDF132E05A15F192C8F7CBE4C981 /* PPiAwesomeButton */,
+				9576B00F56E539F11B13D9A0DCE73E8E /* Pods */,
+				60D25655E8A3C73772FC9B5264508EF1 /* RSBarcodes */,
+				6720D97BB79FA933697EC16E5F052894 /* SCLAlertView-Objective-C */,
+				821F67E914762512F3AA7B3C610DBE81 /* TGCameraViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BD2843CB990B9C0040C3F0483FA53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9C8A4A94FA981456E07E2F77398F1A /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AF26D1C42D3F580F84AF1B06B245A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F82BAB25297DC671B1AAC5DA226F09B /* MagicalImportFunctions.m in Sources */,
+				708C4C83577ADB8FD13CCFCF6411B7E1 /* MagicalRecord+Actions.m in Sources */,
+				60ED0CC35628F1737CEC0D88E2A0ED8B /* MagicalRecord+ErrorHandling.m in Sources */,
+				387ACD469F22E94F1B732179A6B0DE7A /* MagicalRecord+Options.m in Sources */,
+				F411A3BD717B9ABED7729E5D87ECE1EF /* MagicalRecord+Setup.m in Sources */,
+				BDC89561DA280785C8254069058B960A /* MagicalRecord+ShorthandMethods.m in Sources */,
+				66CDF0989BAB007967087BF4B80043AF /* MagicalRecord+iCloud.m in Sources */,
+				2C7DAF58FC92DA0871DAA0CC414BA772 /* MagicalRecord-dummy.m in Sources */,
+				D5513D446293EE46DA3BA68F668A0895 /* MagicalRecordInternal.m in Sources */,
+				486BB7CB716DC7A4044BC1349E96EED0 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+				E31F57D47E9E72EF6F170B73379164E5 /* NSEntityDescription+MagicalDataImport.m in Sources */,
+				10A59E88289E47DD15F37F359E3F53D8 /* NSManagedObject+MagicalAggregation.m in Sources */,
+				AF51226E37FBD1AE3019FE61081AB037 /* NSManagedObject+MagicalDataImport.m in Sources */,
+				363E6CA8ECBE524287BAB4D5B15146AF /* NSManagedObject+MagicalFinders.m in Sources */,
+				2C6B0F63708CA242E816A4012B5B83F1 /* NSManagedObject+MagicalRecord.m in Sources */,
+				98B494F33A1B2A53432025A557EA2684 /* NSManagedObject+MagicalRequests.m in Sources */,
+				B9B0C52333EBFB97FFC1968D9323FC7F /* NSManagedObjectContext+MagicalChainSave.m in Sources */,
+				8A50E025D0B006C9387496F85AD3D360 /* NSManagedObjectContext+MagicalObserving.m in Sources */,
+				CF58EFFC2F7BC13715EF373B1C8B60C6 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
+				51CA4ED9DFA0A4A394C5DECB787DC47C /* NSManagedObjectContext+MagicalSaves.m in Sources */,
+				25E62472828F81D4BD1156B7E20FE60E /* NSManagedObjectContext+MagicalThreading.m in Sources */,
+				AB8837DF3AE44B3957C074A8C88576AA /* NSManagedObjectModel+MagicalRecord.m in Sources */,
+				6955B06ADA195791BC17E53AB0979357 /* NSNumber+MagicalDataImport.m in Sources */,
+				1EA59C1A085B9447D7AC4A5D48E0C0AE /* NSObject+MagicalDataImport.m in Sources */,
+				1D5734651E8D49C591F7E1D9AD831965 /* NSPersistentStore+MagicalRecord.m in Sources */,
+				27A498FA2E496C980E552B212C393397 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
+				A431D6AFFBD5FFC52B24AA04E0EEDE09 /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
+				FEBD2FB63122276D6393C8F3D78177D4 /* NSString+MagicalDataImport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38185FE187E6F9C867E53ECB91FEA404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7304CC489EE9E2DBB5D209000A0BBC76 /* RSBarcodes-dummy.m in Sources */,
+				E637109AEC0BC7B98540EA52993EAEDD /* RSCode128Generator.m in Sources */,
+				8226BA79FB9E26A9DCD02041634A8378 /* RSCode39Generator.m in Sources */,
+				9216F10E4F4C668E4E075C376CDD2200 /* RSCode39Mod43Generator.m in Sources */,
+				F8A5AEEFFFA4FCF978E93CE42FDB9381 /* RSCode93Generator.m in Sources */,
+				A4C6D783E17F0CA9D44B4D61E651464C /* RSCodeGenerator.m in Sources */,
+				12230399CE55CADD2FCA6CE68420A719 /* RSCodeView.m in Sources */,
+				33AF6E96857CE0F1A88A27311767FF1A /* RSCornersView.m in Sources */,
+				6E9810E9632E83BC53814DC779192C2C /* RSEAN13Generator.m in Sources */,
+				D56B1CBBCCFE78D7244AE682B22ADFB3 /* RSEAN8Generator.m in Sources */,
+				97A6ABF5B5C3DE50F53EEBA21D49F27A /* RSEANGenerator.m in Sources */,
+				F6E806774C3DA140C293A5082BEB6981 /* RSExtendedCode39Generator.m in Sources */,
+				241449E2CAF6D59EF4D9311F5C0CC22F /* RSISBN13Generator.m in Sources */,
+				05FDBBF953B13E07183E75B9AC7FCE1F /* RSISSN13Generator.m in Sources */,
+				A91F06E6658BFCBFB86DDF7BC4428119 /* RSITF14Generator.m in Sources */,
+				DD2FB0300743F46F59DBC94A1BD7A9AA /* RSITFGenerator.m in Sources */,
+				7ACB4748CCACA3FCF19541351D9EF771 /* RSScannerViewController.m in Sources */,
+				1F0CA4933D47289A61146A1568BFC84A /* RSUPCEGenerator.m in Sources */,
+				B52F1341CB486D19164FD70A227A8CB8 /* RSUnifiedCodeGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C1EDFF5A80B109E466A3CF686D0E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B98425665830443399C182D95347F2 /* SCLAlertView-Objective-C-dummy.m in Sources */,
+				BA710F7C4485EF2F041DC1CB5D070885 /* SCLAlertView.m in Sources */,
+				4AF69DD90962B16843602154CF52C203 /* SCLAlertViewResponder.m in Sources */,
+				A45FA25885BD4BE8B315DC6EF608B628 /* SCLAlertViewStyleKit.m in Sources */,
+				62327CCCA4D828D06BF813F2D29FE903 /* SCLButton.m in Sources */,
+				50EC9F682A1FDC0E3D7A96FEDE358A39 /* SCLTextView.m in Sources */,
+				96F3D02ED3E84CCE08C38F52046BC5F9 /* SCLTimerDisplay.m in Sources */,
+				713828E657A8EAE57DEE6169CB5718E6 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F0C46042E2725BD26BA627C687939A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA48A4F568B9BF7AAC57448B31E440EF /* PPiAwesomeButton-dummy.m in Sources */,
+				F6F783E1EAF1D6B2CB5FBCB521F076A3 /* UIAwesomeButton.m in Sources */,
+				15CDF7B0DFC58BEDD5825368846EA0B6 /* UIButton+PPiAwesome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61543EBB49BB0137DFA60A90166AC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430D5839E089A495A3E2B08D3EF157A9 /* FAImageView.m in Sources */,
+				3B9AFD1E7DE61FCCD3E5EC7ABFC226F7 /* FontAwesome+iOS-dummy.m in Sources */,
+				8E4603D085E1C99E72B46BEB2B082EEE /* NSString+FontAwesome.m in Sources */,
+				A9757B4A75C8652EB6A5DBB4DC14AB53 /* UIFont+FontAwesome.m in Sources */,
+				386229F35FCF05F9DCF38715E0F46557 /* UIImage+FontAwesome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E728F2AF5B3345AADD3C51B42F86EBFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE62A0458B092A0996A6AF1377664F3A /* TGAlbum.m in Sources */,
+				4FE6720A172E061F8E58A7B2C84FAC15 /* TGAssetImageFile.m in Sources */,
+				04C7EAE1326485C75BCB53659FE7AE06 /* TGAssetsLibrary.m in Sources */,
+				85667AD6CBDA9DEF12824F2FCA31898B /* TGCamera.m in Sources */,
+				368636A27A57DEFB5977DFA003EFA260 /* TGCameraAuthorizationViewController.m in Sources */,
+				6F53C14979278CE3D446340ED2F2E26B /* TGCameraColor.m in Sources */,
+				53859743C0D5CD87C3B23AAE58DFFE9C /* TGCameraFilterView.m in Sources */,
+				EB7B65B7771F8C5035879DF78B7445FD /* TGCameraFlash.m in Sources */,
+				16DCE6A8CA2E31524EA7D7E930CFC24B /* TGCameraFocus.m in Sources */,
+				3E83F31BADBE2E49CCFBEF3352BD6E43 /* TGCameraFocusView.m in Sources */,
+				03E2BB87AC9872BF259AB7033FFEC85B /* TGCameraGrid.m in Sources */,
+				4B42DEE7E3007F9CA6D378F56F92E069 /* TGCameraGridView.m in Sources */,
+				EED2CCC39A2AE6A038D967D917B1D22E /* TGCameraNavigationController.m in Sources */,
+				AB2EAB8AC3E6CD2100E094BF24743F3A /* TGCameraShot.m in Sources */,
+				06EF805FB2E5E6CA6EF8740FFAB116A4 /* TGCameraSlideDownView.m in Sources */,
+				14028D8CF775DF5848A1E0F4E7B8865A /* TGCameraSlideUpView.m in Sources */,
+				8B0AD3B83542AFA637EA8B7C97671A67 /* TGCameraSlideView.m in Sources */,
+				DC169D2083D8C6A36CC567340E819B77 /* TGCameraToggle.m in Sources */,
+				6336096924C66EF38A413FFF6C7324C6 /* TGCameraViewController-dummy.m in Sources */,
+				0E8EC676EB67E62BFC81C33EA02B5821 /* TGCameraViewController.m in Sources */,
+				C328AFB0B90B3962E46149A713E01687 /* TGPhotoViewController.m in Sources */,
+				78BDC3299A5AED392A9C25B375DF46CB /* TGTintedButton.m in Sources */,
+				0B2113D496608C74C0F8561544C1659A /* TGTintedLabel.m in Sources */,
+				673B0C2E271EE7536F051883369DCB80 /* UIImage+CameraFilters.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59FDDA18598FB53C42B3602F286CE55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPiAwesomeButton;
+			target = 801CBDF132E05A15F192C8F7CBE4C981 /* PPiAwesomeButton */;
+			targetProxy = CCBB73D84CD5EECE21411D30A5AA0BBE /* PBXContainerItemProxy */;
+		};
+		5EE2575CE8556CC32A76707CDBD5186C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FontAwesome+iOS";
+			target = 621D54AA30635A54F156A49E42160DFE /* FontAwesome+iOS */;
+			targetProxy = 0B83361D0B6F610D4248C005D95056B2 /* PBXContainerItemProxy */;
+		};
+		62E06EF6B68A9A3E2B693C63C237CC86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TGCameraViewController;
+			target = 821F67E914762512F3AA7B3C610DBE81 /* TGCameraViewController */;
+			targetProxy = AE637363B2925EB8BEBD3DA1A0E69398 /* PBXContainerItemProxy */;
+		};
+		774056C2533A75B6827B50BC71954A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MagicalRecord;
+			target = AF550BF0E3E0932EC3BC148603DF10F8 /* MagicalRecord */;
+			targetProxy = 54AEFEBEAB75D39C406E400CCC1027AD /* PBXContainerItemProxy */;
+		};
+		B3842BD8D00B588CF622C068EAD09371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSBarcodes;
+			target = 60D25655E8A3C73772FC9B5264508EF1 /* RSBarcodes */;
+			targetProxy = CB9CAD8EC24D30F2E5FE46BAED2B7B39 /* PBXContainerItemProxy */;
+		};
+		C6E0B9A836E67F4C7064A3FF1919B919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FontAwesome+iOS";
+			target = 621D54AA30635A54F156A49E42160DFE /* FontAwesome+iOS */;
+			targetProxy = 1EEA9AD26646361DCC80AAF93493655D /* PBXContainerItemProxy */;
+		};
+		E41AB3191B167AD7D1601A5C7F45CF87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SCLAlertView-Objective-C";
+			target = 6720D97BB79FA933697EC16E5F052894 /* SCLAlertView-Objective-C */;
+			targetProxy = AC333A5FD6516B4155E7AAA851515508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0C8D6AFC5FAFB79801CEC297BB049182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121A7EC1700BCCAF6C7512CBD0213176 /* TGCameraViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TGCameraViewController/TGCameraViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0FC7A372A39D9712ABB77D0CD2CCF5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0A6EDC1C61411A9C65C39A3AA8AD6E /* MagicalRecord-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MagicalRecord/MagicalRecord-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		10679219D2B1F2EF58F90FBC51F2578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5319411B8556054B968D3D64B9494D38 /* PPiAwesomeButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PPiAwesomeButton/PPiAwesomeButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		449F92DFC6905D337B9443C31ED3EB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5319411B8556054B968D3D64B9494D38 /* PPiAwesomeButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PPiAwesomeButton/PPiAwesomeButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5AB4AC97FD7A851B175F7CB0BDD7E0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C050499F652F99DDAFC98A525E00FBB /* FontAwesome+iOS-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome+iOS/FontAwesome+iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		787BAA4AE4B63BECC0AFE0DA1CF0D776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7910047285960A4EEC6253CA560BB56C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8040A2705193F0DD1AED290D3DFF754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121A7EC1700BCCAF6C7512CBD0213176 /* TGCameraViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TGCameraViewController/TGCameraViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		96E9A264F486F34D520727F3208847A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7EB4504D2699B4C343D05306C7CCE8 /* RSBarcodes-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSBarcodes/RSBarcodes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		995ED9EBA57C7CE44F258D6A4E54D7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7EB4504D2699B4C343D05306C7CCE8 /* RSBarcodes-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSBarcodes/RSBarcodes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9A46D753FA70C16C679CE27E21F0C3DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F27C92E3269C80EBBFA7C3283FD2536 /* SCLAlertView-Objective-C-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView-Objective-C/SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE6165210269028D1D10E6A51626FA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E4EDFF7646DF1F617CF0CC9546C61B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D4025A2B40BAD4C5E81860DE4EDC29F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F27C92E3269C80EBBFA7C3283FD2536 /* SCLAlertView-Objective-C-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView-Objective-C/SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7A5235D42C4AFF54704FD83539A2D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C050499F652F99DDAFC98A525E00FBB /* FontAwesome+iOS-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome+iOS/FontAwesome+iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF2AE8555C6AE109F4A84CA969FBE21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0A6EDC1C61411A9C65C39A3AA8AD6E /* MagicalRecord-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MagicalRecord/MagicalRecord-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002795BFD09A4C1682EF636A53B5718A /* Build configuration list for PBXNativeTarget "TGCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8040A2705193F0DD1AED290D3DFF754F /* Debug */,
+				0C8D6AFC5FAFB79801CEC297BB049182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C39EE8C743CE95B5D4D56EA845EF47 /* Build configuration list for PBXNativeTarget "FontAwesome+iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB4AC97FD7A851B175F7CB0BDD7E0B0 /* Debug */,
+				E7A5235D42C4AFF54704FD83539A2D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10949878059A3E0913624C85E160BA39 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6165210269028D1D10E6A51626FA32 /* Debug */,
+				787BAA4AE4B63BECC0AFE0DA1CF0D776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6573C9EA65BA8AF7B578633A559C8F52 /* Build configuration list for PBXNativeTarget "SCLAlertView-Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4025A2B40BAD4C5E81860DE4EDC29F0 /* Debug */,
+				9A46D753FA70C16C679CE27E21F0C3DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C79315A3E2B26B37780E46793B79AA4 /* Build configuration list for PBXNativeTarget "MagicalRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2AE8555C6AE109F4A84CA969FBE21D /* Debug */,
+				0FC7A372A39D9712ABB77D0CD2CCF5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882D24EE438536DEDA8C8E0E3E1C8910 /* Build configuration list for PBXNativeTarget "RSBarcodes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E9A264F486F34D520727F3208847A2 /* Debug */,
+				995ED9EBA57C7CE44F258D6A4E54D7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B2257B60EF099FCB767550A4EBD789 /* Build configuration list for PBXNativeTarget "PPiAwesomeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10679219D2B1F2EF58F90FBC51F2578A /* Debug */,
+				449F92DFC6905D337B9443C31ED3EB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

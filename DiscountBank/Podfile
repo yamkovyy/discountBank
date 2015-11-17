@@ -1,0 +1,6 @@
+pod 'RSBarcodes', '~> 0.1.4'
+pod "MagicalRecord"
+pod 'SCLAlertView-Objective-C'
+pod 'TGCameraViewController'
+pod 'PPiAwesomeButton'
+pod 'FontAwesome+iOS', :git => 'git@github.com:alexdrone/ios-fontawesome.git'

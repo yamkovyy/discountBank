@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,123 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDx-sZ-PEC">
+                                <rect key="frame" x="170" y="148" width="35" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Scan"/>
+                                <connections>
+                                    <action selector="scan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yrc-mb-sMo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9F-0N-QFs">
+                                <rect key="frame" x="155" y="199" width="64" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Generate"/>
+                                <connections>
+                                    <action selector="generateBarCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="id5-5w-Hh4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qi-SA-nrO">
+                                <rect key="frame" x="139" y="75" width="22" height="22"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="addCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XvX-m0-Vjr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m9F-0N-QFs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="135" id="44Z-mH-6oa"/>
+                            <constraint firstItem="m9F-0N-QFs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="179" id="A3B-2r-xSM"/>
+                            <constraint firstItem="eDx-sZ-PEC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="150" id="gNo-Uw-jAz"/>
+                            <constraint firstItem="eDx-sZ-PEC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="gsc-yw-W4k"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="44n-gh-fIN" kind="presentation" identifier="addCardSegue" id="4Mk-JT-Rmh"/>
+                        <segue destination="B11-mJ-CIp" kind="show" identifier="showBarcodeSegue" id="RNp-F7-L9N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="279" y="315"/>
+        </scene>
+        <!--Bar Code Generator View Controller-->
+        <scene sceneID="cPB-XR-vqR">
+            <objects>
+                <viewController id="B11-mJ-CIp" customClass="BarCodeGeneratorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vvd-w1-ver"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hex-do-lEK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kbw-7G-tdf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="26y-d7-Avx">
+                                <rect key="frame" x="30" y="30" width="540" height="544"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hex-do-lEK" firstAttribute="top" secondItem="26y-d7-Avx" secondAttribute="bottom" constant="26" id="DwC-Qt-FBr"/>
+                            <constraint firstItem="26y-d7-Avx" firstAttribute="top" secondItem="Vvd-w1-ver" secondAttribute="bottom" constant="10" id="KqN-j8-pCv"/>
+                            <constraint firstItem="26y-d7-Avx" firstAttribute="leading" secondItem="Kbw-7G-tdf" secondAttribute="leadingMargin" constant="10" id="OAo-qb-fsj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="26y-d7-Avx" secondAttribute="trailing" constant="10" id="k05-BT-UTI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barCode" destination="26y-d7-Avx" id="qcn-gE-waj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sna-Hm-dBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1017" y="-368"/>
+        </scene>
+        <!--Add New Card View Controller-->
+        <scene sceneID="yKg-mF-sFb">
+            <objects>
+                <viewController id="44n-gh-fIN" customClass="AddNewCardViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xTK-GT-i3n"/>
+                        <viewControllerLayoutGuide type="bottom" id="omu-sM-rcr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="16W-pc-ehC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Store Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xN2-jy-KCm">
+                                <rect key="frame" x="41" y="33" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Barcode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Z-ye-bGF">
+                                <rect key="frame" x="41" y="86" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1f-ja-Iud">
+                                <rect key="frame" x="26" y="141" width="127" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Take a Photo"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="44n-gh-fIN" eventType="touchUpInside" id="SqK-4B-58G"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cH4-K4-Oi8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1017" y="315"/>
         </scene>
     </scenes>
 </document>
